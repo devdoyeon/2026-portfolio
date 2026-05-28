@@ -14,7 +14,7 @@ export default function Footer() {
           <a href={personalInfo.github} target="_blank" rel="noreferrer">
             GitHub
           </a>
-          <a href={`mailto:${personalInfo.email}`}>Email</a>
+          <span className="footer__email">{personalInfo.email}</span>
         </div>
       </div>
     </footer>

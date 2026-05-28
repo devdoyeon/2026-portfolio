@@ -9,7 +9,7 @@ export const personalInfo = {
   birth: '2002.11.26',
   github: 'https://github.com/devdoyeon',
   blog: 'https://www.notion.so/Engineering-Blog-68cfaa38973f49fcb752259a811ef5eb',
-  quote: '즐기는 자를\n이길 수는 없다',
+  quote: '끝까지 파고들어\n완성합니다',
 };
 
 export const roles = {
@@ -22,6 +22,7 @@ export const roles = {
     tagline:
       '데이터 파이프라인부터 시각화·AI 기능까지, end-to-end로 설계합니다.',
     headline: '즐기는 AI Developer,\n권도연입니다.',
+    quote: '즐기는 만큼\n끝까지 검증한다',
     bio: [
       '프론트엔드 개발 1년 2개월 동안 Mining Cloud AI 바우처 사업, 마크뷰 브랜드 네이밍(Elastic Search 기반), Annotation Tool 등 데이터·AI가 맞닿는 영역을 직접 구현했습니다. CSV/Zip 전처리, Partitioning 데이터셋, Nivo Chart 기반 상관·교차분석 시각화까지 학습용 데이터가 모델까지 이어지는 흐름을 이해하고 있습니다.',
       '데이터 라벨러·관리자와 직접 소통하며 Annotation Tool UX를 개선한 경험은, AI 제품을 “사용하는 사람” 관점에서 설계하는 저의 강점입니다. 생성형 AI 활용 인재양성 과정(2026)을 통해 최신 AI 스택을 확장하며, 데이터 품질과 사용자 경험을 동시에 높이는 AI 개발자로 성장하고 있습니다.',
@@ -72,6 +73,7 @@ export const roles = {
     tagline:
       'React·Next.js로 서비스를 만들고, 백엔드·API까지 주도적으로 연결합니다.',
     headline: '즐기는 Full-Stack Developer,\n권도연입니다.',
+    quote: '즐기는 만큼\n끝까지 연결한다',
     bio: [
       '마크클라우드에서 1년 2개월간 프론트엔드 개발자·팀장으로 재직하며, 회사 메인·Admin·마크그룹·마크픽·마크통·Annotation Tool 등 10개 이상의 프로젝트를 Develop & Maintain 했습니다. React.js에서 Next.js Migration, CRUD 자동화 Admin, 공통 컴포넌트 설계, 반응형 SCSS까지 사용자가 체감하는 품질을 책임졌습니다.',
       '백엔드가 맡을 수 있는 영역도 프론트에서 더 효율적이라 판단되면 주도적으로 처리했습니다. API 연동·데이터 처리·이미지 최적화·동적 폼 설계를 스스로 해결하며 팀 전체의 속도를 높였고, 비대면 바우처 공급기업 선정을 위한 소개자료 작성 등 기획·문서화까지 수행했습니다.',
@@ -123,6 +125,7 @@ export const roles = {
     tagline:
       '개발자의 입장을 아는 DevOps — 자동화·최적화로 배포와 운영의 간극을 줄입니다.',
     headline: '즐기는 DevOps,\n권도연입니다.',
+    quote: '즐기는 만큼\n끝까지 자동화한다',
     bio: [
       '“개발자의 입장을 누구보다 잘 아는 DevOps”를 목표로, 프론트엔드 1년 2개월 경험 위에 인프라·컨테이너·배포 자동화 역량을 쌓고 있습니다. 팝업 수동 배포 → Admin CRUD 자동화, base64 이미지 → S3·form-data 파이프라인, 데이터 전처리·시각화 자동화 등 “반복·비효율을 없애는” 일을 실무에서 해왔습니다.',
       '2024.10 ~ 2025.04 하이미디어 AWS 하이브리드 클라우드 과정, WIARY 프로젝트(GitHub Actions CI + ArgoCD CD, EKS·RDS·CloudWatch)를 통해 CI/CD·컨테이너·모니터링을 학습·적용했습니다. 개발과 운영을 연결해 빠르고 안정적인 서비스 제공에 기여하는 DevOps 엔지니어로 성장 중입니다.',
@@ -184,6 +187,7 @@ export const roles = {
     accentClass: 'btn-cloud',
     tagline: 'AWS 기반으로 안정적·확장 가능한 인프라를 설계하고 운영합니다.',
     headline: '즐기는 Cloud Engineer,\n권도연입니다.',
+    quote: '즐기는 만큼\n끝까지 안정화한다',
     bio: [
       '마크그룹 서비스에서 AWS S3 기반 이미지 스토리지 파이프라인을 실무에 적용했고, 하이미디어 AWS 하이브리드 클라우드 구축·운영 엔지니어링 과정(2024.10~2025.04)을 수료했습니다. EC2, EKS, RDS, S3, VPC, Cognito, CloudWatch를 활용한 인프라 설계·구축 경험이 있습니다.',
       'WIARY 파이널 프로젝트(팀장)에서 ERD 설계·RDS 구축, EKS 클러스터, S3 정적·미디어 저장, VPC 네트워크 분리, CloudWatch 모니터링·로깅을 담당했습니다. 호텔 네트워크 세미 프로젝트(5망·방화벽·BIND9) 경험까지 더해, 클라우드와 온프레미스를 아우르는 인프라 엔지니어로 성장하고 있습니다.',
@@ -1050,7 +1054,7 @@ export const education = [
 
 export const skills = {
   '프로그래밍 언어': ['Python', 'JavaScript', 'TypeScript'],
-  프론트엔드: ['HTML/CSS3', 'SCSS', 'React.js', 'Next.js'],
+  프론트엔드: ['HTML/CSS3', 'SCSS', 'React.js', 'Next.js', 'Vite'],
   백엔드: ['Node.js', 'FastAPI', 'Flask'],
   데이터베이스: ['MySQL', 'Oracle', 'MariaDB'],
   OS: ['Linux', 'Windows', 'macOS'],
@@ -1063,6 +1067,7 @@ export const skills = {
     'ArgoCD',
   ],
   IDE: ['VSCode', 'WebStorm', 'PyCharm'],
+  'AI Coding Agent': ['Cursor', 'Antigravity', 'Claude'],
   '형상 관리': ['GitHub', 'GitLab'],
   'AI / Data': [
     'CSV·Zip 전처리',
@@ -1077,6 +1082,7 @@ export const skills = {
 const skillOrderByRole = {
   ai: [
     '프로그래밍 언어',
+    'AI Coding Agent',
     'AI / Data',
     '백엔드',
     '프론트엔드',
@@ -1088,6 +1094,7 @@ const skillOrderByRole = {
   fullstack: [
     '프론트엔드',
     '프로그래밍 언어',
+    'AI Coding Agent',
     '백엔드',
     '데이터베이스',
     '형상 관리',
@@ -1101,6 +1108,7 @@ const skillOrderByRole = {
     'OS',
     '프로그래밍 언어',
     '형상 관리',
+    'AI Coding Agent',
     '협업 도구',
     'IDE',
   ],
@@ -1111,6 +1119,7 @@ const skillOrderByRole = {
     '데이터베이스',
     '백엔드',
     '형상 관리',
+    'AI Coding Agent',
     '협업 도구',
   ],
 };

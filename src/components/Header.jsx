@@ -33,9 +33,7 @@ export default function Header({ roleLabel, rolePath }) {
           </nav>
         )}
 
-        <Link to="/" className="header__home-link" title="직무 선택 홈">
-          All Roles
-        </Link>
+        
       </div>
     </header>
   );

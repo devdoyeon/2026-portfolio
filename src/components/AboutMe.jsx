@@ -45,14 +45,10 @@ export default function AboutMe({ role }) {
             <h3 className="about__contact-title">Contact</h3>
             <ul className="about__contact-list">
               <li>
-                <strong>Email</strong>{' '}
-                <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a>
+                <strong>Email</strong> <span>{personalInfo.email}</span>
               </li>
               <li>
-                <strong>Phone</strong>{' '}
-                <a href={`tel:${personalInfo.phone.replace(/-/g, '')}`}>
-                  {personalInfo.phone}
-                </a>
+                <strong>Phone</strong> <span>{personalInfo.phone}</span>
               </li>
               <li>
                 <strong>Address</strong> {personalInfo.address}
@@ -69,29 +65,40 @@ export default function AboutMe({ role }) {
                 href={personalInfo.github}
                 target="_blank"
                 rel="noreferrer"
-                className="about__link-item"
+                className="about__link-card"
               >
-                <span aria-hidden="true">👩🏻‍💻</span> GitHub
+                <span className="about__link-icon" aria-hidden="true">
+                  👩🏻‍💻
+                </span>
+                <span className="about__link-text">
+                  <strong>GitHub</strong>
+                  <span className="about__link-sub">{personalInfo.github.replace('https://', '')}</span>
+                </span>
               </a>
               <a
                 href={personalInfo.blog}
                 target="_blank"
                 rel="noreferrer"
-                className="about__link-item"
+                className="about__link-card"
               >
-                <span aria-hidden="true">🐣</span> Engineering Blog
+                <span className="about__link-icon" aria-hidden="true">
+                  📝
+                </span>
+                <span className="about__link-text">
+                  <strong>Engineering Blog</strong>
+                  <span className="about__link-sub">Notion</span>
+                </span>
               </a>
             </div>
+          </div>
+        </div>
 
-            <blockquote className="about__quote">
-              {personalInfo.quote.split('\n').map((line, i) => (
-                <span key={i}>
-                  {line}
-                  {i === 0 && <br />}
-                </span>
-              ))}
-            </blockquote>
+        <div className="about__motto">
+          <blockquote className="about__quote">
+            {role.quote ?? personalInfo.quote}
+          </blockquote>
 
+          <div className="about__motto-body">
             <p className="about__headline">
               {headlineLines.map((line, i) => (
                 <span key={i}>

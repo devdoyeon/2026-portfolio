@@ -19,7 +19,7 @@ export default function LandingPage() {
         <section className="landing__hero container">
           <p className="landing__greeting">안녕하세요,</p>
           <h1 className="landing__title">
-            개발자 <span className="landing__name">{personalInfo.nameKo}</span>입니다.
+            Software Engineer <span className="landing__name">{personalInfo.nameKo}</span>입니다.
           </h1>
           <p className="landing__subtitle">
             저는 <strong>AI · 풀스택 · 클라우드 · DevOps</strong> 영역에서 문제를 해결합니다.
