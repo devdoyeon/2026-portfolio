@@ -1,0 +1,72 @@
+@use './style' as *;
+
+.education {
+  background: color-mix(in srgb, var(--card-bg) 40%, var(--bg-color));
+
+  &__list {
+    position: relative;
+    padding-left: 1.5rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      bottom: 0.5rem;
+      width: 2px;
+      background: linear-gradient(180deg, var(--accent), var(--border-color));
+    }
+  }
+
+  &__item {
+    position: relative;
+    padding-bottom: 1.75rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: -1.5rem;
+      top: 0.45rem;
+      width: 10px;
+      height: 10px;
+      margin-left: -4px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  &__date {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--accent);
+    margin-bottom: 0.35rem;
+
+    @include mobile {
+      font-size: 0.75rem;
+    }
+  }
+
+  &__content {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+
+    a {
+      color: var(--text-primary);
+
+      &:hover {
+        color: var(--accent);
+      }
+    }
+
+    @include mobile {
+      font-size: 0.88rem;
+    }
+  }
+}

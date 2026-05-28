@@ -1,0 +1,152 @@
+@use './style' as *;
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: var(--header-height);
+  background: color-mix(in srgb, var(--bg-color) 85%, transparent);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+  transition: border-color var(--transition);
+
+  @include mobile {
+    height: auto;
+    min-height: var(--header-height);
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    gap: 1rem;
+
+    @include mobile {
+      flex-wrap: wrap;
+      align-content: center;
+      padding: 0.65rem 0;
+      min-height: var(--header-height);
+    }
+  }
+
+  &__logo {
+    font-family: var(--font-bold);
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    &:hover {
+      opacity: 1;
+      color: var(--text-primary);
+    }
+
+    @include mobile {
+      font-size: 1rem;
+      max-width: calc(100% - 5.5rem);
+    }
+  }
+
+  &__logo-accent {
+    color: var(--accent);
+  }
+
+  &__role-badge {
+    font-size: 0.7rem;
+    font-family: var(--font-sans);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    background: color-mix(in srgb, var(--accent) 20%, transparent);
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-x: auto;
+    max-width: min(55vw, 520px);
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    @include wide-tablet {
+      max-width: min(50vw, 440px);
+    }
+
+    @include tablet {
+      max-width: min(48vw, 360px);
+    }
+
+    @include mobile {
+      order: 3;
+      flex: 1 1 100%;
+      max-width: 100%;
+      justify-content: flex-start;
+      gap: 0.15rem;
+      padding-top: 0.35rem;
+      margin-top: 0.15rem;
+      border-top: 1px solid var(--border-color);
+    }
+  }
+
+  &__nav-link {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-family: var(--font-sans);
+    padding: 0.4rem 0.65rem;
+    cursor: pointer;
+    border-radius: var(--radius);
+    transition: color var(--transition), background var(--transition);
+    flex-shrink: 0;
+
+    &:hover {
+      color: var(--accent);
+      background: color-mix(in srgb, var(--accent) 10%, transparent);
+    }
+
+    @include tablet {
+      font-size: 0.78rem;
+      padding: 0.35rem 0.5rem;
+    }
+
+    @include mobile {
+      font-size: 0.72rem;
+      padding: 0.3rem 0.45rem;
+    }
+  }
+
+  &__home-link {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    flex-shrink: 0;
+
+    &:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      opacity: 1;
+    }
+
+    @include mobile {
+      font-size: 0.72rem;
+      padding: 0.3rem 0.55rem;
+    }
+  }
+}

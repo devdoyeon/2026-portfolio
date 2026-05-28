@@ -1,0 +1,118 @@
+//= 분기점
+$breakpoint-wide-tablet: 1300px; // 태블릿 가로
+$breakpoint-tablet: 820px; // 태블릿 세로
+$breakpoint-mobile: 480px; // 모바일
+
+//& 태블릿 가로
+@mixin wide-tablet {
+  @media screen and (max-width: $breakpoint-wide-tablet) {
+    @content;
+  }
+}
+
+//& 태블릿 세로
+@mixin tablet {
+  @media screen and (max-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+//& 모바일
+@mixin mobile {
+  @media screen and (max-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+// --- 폰트 패밀리 ---
+$blackFont: 'NotoSansKR', '맑은 고딕', sans-serif;
+$boldFont: 'NotoSansKR', '맑은 고딕', sans-serif;
+$middleFont: 'NotoSansKR', '맑은 고딕', sans-serif;
+$regularFont: 'NotoSansKR', '맑은 고딕', sans-serif;
+$thinFont: 'NotoSansKR', '맑은 고딕', sans-serif;
+
+// --- 공통 레이아웃 테마 (다크 모드 기준) ---
+:root {
+  --bg-color: #0d1117;
+  --card-bg: #161b22;
+  --card-bg-hover: #1c2128;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --border-color: #30363d;
+  --accent: var(--accent-fullstack);
+
+  --accent-ai: #7c3aed;
+  --accent-fullstack: #10b981;
+  --accent-devops: #f97316;
+  --accent-cloud: #0ea5e9;
+
+  --header-height: 64px;
+  --section-padding: 5rem 0;
+  --container-max: 1100px;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+
+  --scrollbar-size: 8px;
+  --scrollbar-track: var(--bg-color);
+  --scrollbar-thumb: #3d444d;
+  --scrollbar-thumb-hover: color-mix(in srgb, var(--accent) 45%, #3d444d);
+
+  --font-black: #{$blackFont};
+  --font-bold: #{$boldFont};
+  --font-middle: #{$middleFont};
+  --font-regular: #{$regularFont};
+  --font-thin: #{$thinFont};
+  --font-sans: #{$regularFont};
+  --font-mono: 'JetBrains Mono', monospace;
+
+  @include wide-tablet {
+    --section-padding: 4rem 0;
+  }
+
+  @include tablet {
+    --section-padding: 3.25rem 0;
+    --header-height: 56px;
+  }
+
+  @include mobile {
+    --section-padding: 2.5rem 0;
+    --header-height: 104px;
+  }
+}
+
+[data-role='ai'] {
+  --accent: var(--accent-ai);
+}
+
+[data-role='fullstack'] {
+  --accent: var(--accent-fullstack);
+}
+
+[data-role='devops'] {
+  --accent: var(--accent-devops);
+}
+
+[data-role='cloud'] {
+  --accent: var(--accent-cloud);
+}
+
+.btn-ai {
+  border: 1px solid var(--accent-ai);
+  color: var(--accent-ai);
+}
+
+.btn-fullstack {
+  border: 1px solid var(--accent-fullstack);
+  color: var(--accent-fullstack);
+}
+
+.btn-devops {
+  border: 1px solid var(--accent-devops);
+  color: var(--accent-devops);
+}
+
+.btn-cloud {
+  border: 1px solid var(--accent-cloud);
+  color: var(--accent-cloud);
+}

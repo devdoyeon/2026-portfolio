@@ -1,0 +1,26 @@
+{
+  "name": "2026-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "scss": "sass src/style:src/style/css --no-source-map",
+    "scss:watch": "sass src/style:src/style/css --watch --no-source-map"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "gh-pages": "^6.3.0",
+    "sass": "^1.89.2",
+    "vite": "^6.3.5"
+  }
+}

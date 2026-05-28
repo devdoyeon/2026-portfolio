@@ -1,0 +1,146 @@
+@use './style' as *;
+
+.landing {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &__main {
+    flex: 1;
+    padding-top: calc(var(--header-height) + 4rem);
+    padding-bottom: 3rem;
+
+    @include tablet {
+      padding-top: calc(var(--header-height) + 2.5rem);
+      padding-bottom: 2rem;
+    }
+
+    @include mobile {
+      padding-top: calc(var(--header-height) + 1.5rem);
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  &__hero {
+    text-align: center;
+    margin-bottom: 4rem;
+
+    @include tablet {
+      margin-bottom: 2.5rem;
+    }
+
+    @include mobile {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__greeting {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+  }
+
+  &__title {
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 1.25rem;
+  }
+
+  &__name {
+    background: linear-gradient(
+      90deg,
+      var(--accent-ai),
+      var(--accent-fullstack),
+      var(--accent-devops),
+      var(--accent-cloud)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  &__subtitle {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+
+    strong {
+      color: var(--text-primary);
+    }
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 3rem;
+
+    @include wide-tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.75rem;
+
+    @include mobile {
+      padding: 1.35rem 1.25rem;
+    }
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    color: var(--text-primary);
+    transition: all var(--transition);
+    border-top: 3px solid var(--card-accent);
+
+    &:hover {
+      transform: translateY(-4px);
+      border-color: var(--card-accent);
+      box-shadow: 0 12px 40px color-mix(in srgb, var(--card-accent) 15%, transparent);
+      opacity: 1;
+    }
+  }
+
+  &__card-label {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--card-accent);
+    margin-bottom: 0.2rem;
+  }
+
+  &__card-label-en {
+    font-size: 0.8rem;
+    font-family: var(--font-mono);
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+  }
+
+  &__card-desc {
+    flex: 1;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin-bottom: 1rem;
+  }
+
+  &__card-cta {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--card-accent);
+  }
+
+  &__contact {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+}
