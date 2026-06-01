@@ -544,10 +544,12 @@ export const personalProjects = [
     period: 'Team Project',
     category: 'academy',
     cardSummary: '손/얼굴/글자 탐지 → 비가역 비식별화 + 보안 리포트',
+    docs: 'https://doyeonyou.notion.site/Eraser-3725796685d480e59d4ec127e506cc65?source=copy_link',
     githubs: [
       { label: 'GitHub (BE)', url: 'https://github.com/Ifiveteam/eraser-be' },
       { label: 'GitHub (FE)', url: 'https://github.com/Ifiveteam/eraser-fe' },
     ],
+    docs: 'https://doyeonyou.notion.site/Eraser-3725796685d480e59d4ec127e506cc65?source=copy_link',
     summary:
       'SNS 이미지 공유로 인한 지문·홍채·개인정보(텍스트) 탈취 우려를 줄이기 위해, 이미지 업로드 시 LLM 오케스트레이션이 위험요소(손·얼굴·글자)를 판단하고 모듈을 조합해 비가역 보호 처리 + 리포트를 제공하는 보안 에이전트 서비스',
     tags: [
