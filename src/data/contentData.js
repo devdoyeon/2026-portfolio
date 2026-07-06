@@ -538,6 +538,117 @@ export const career = {
 
 export const personalProjects = [
   {
+    id: 'clickme',
+    title: 'ClickMe',
+    subtitle: '집행 전 AI 가상소비자 광고 테스트 · 광고 전주기 플랫폼 (팀 프로젝트)',
+    period: 'Final Project',
+    category: 'academy',
+    github: 'https://github.com/cclickstudio/click-me',
+    url: 'https://clickme.co.kr',
+    cardSummary:
+      '집행 전 AI 가상소비자로 광고 반응 예측 → 집행 후 성과 추적까지',
+    summary:
+      '집행 전 AI 가상 소비자(Deepsona OCEAN + SSR)에게 광고를 테스트해 클릭 의향·구매의도·신뢰도·거부율을 분포로 예측하고, 집행 후 성과를 추적·관리하는 광고 전주기 지원 플랫폼. 목표는 "실제 사람과 동일한 응답"이 아니라 "직감·내부 검토보다 나은 의사결정 근거" 제공. FastAPI(DDD·헥사고날) + Next.js, LLM 오케스트레이션 챗 어시스턴트, AWS Cognito·EC2·CI/CD까지 end-to-end로 구축했습니다.',
+    tags: [
+      'Python',
+      'FastAPI',
+      'Next.js',
+      'LangGraph',
+      'deepagents',
+      'OpenAI',
+      'PostgreSQL',
+      'pgvector',
+      'AWS Cognito',
+      'AWS EC2/S3',
+      'GitHub Actions',
+      'Docker',
+    ],
+    color: '#2563eb',
+    detailOverview: [
+      '광고를 집행하기 전에 AI 가상 소비자에게 먼저 테스트하고, 집행 후 성과를 추적·관리하는 광고 전주기 지원 플랫폼입니다. 시뮬레이터가 반응을 예측해 개선 방향·보고서를 제시하고, 매니지먼트가 목표·예산·플랫폼·성과를 단일 창구로 묶으며, 광고 생성이 예측을 반영한 개선 시안 3개를 기대 성과 순으로 제안합니다.',
+      '시뮬 엔진은 Deepsona(OCEAN 성격) 페르소나와 SSR(arXiv 2510.08338) 임베딩 기반 스코어링(no LLM)을 결합해 스칼라가 아닌 분포를 출력하고, 클릭 의향률·구매의도·신뢰도·거부율 4대 KPI를 신뢰구간·분포로 표기합니다. 백엔드는 도메인별 바운디드 컨텍스트(시뮬·매니지먼트·생성)로 나눈 DDD + 헥사고날 구조이며, 채팅 어시스턴트는 deepagents 기반 통합 딥에이전트가 세 도메인을 @tool로 위임해 SSE로 스트리밍합니다.',
+    ],
+    sections: [
+      {
+        title: '프로젝트 개요',
+        items: [
+          '심화 생성형 AI 활용 인재양성과정(2026, 하이미디어 강남) 파이널 팀 프로젝트',
+          '광고 전주기(집행 전 시뮬레이션 → 생성 → 집행 후 성과 추적) 지원 플랫폼',
+          'GitHub: cclickstudio/click-me · Live: https://clickme.co.kr',
+        ],
+      },
+      {
+        title: '기술 스택',
+        items: [
+          'Backend/AI: FastAPI(Python), LangGraph, deepagents, OpenAI gpt-4o-mini(SSE)',
+          'Frontend: Next.js(TypeScript) + Tailwind',
+          'DB: NeonDB(PostgreSQL + pgvector, vector(1536)) · Alembic 마이그레이션',
+          'Infra: 단일 EC2 + Nginx, AWS S3, AWS Cognito, GitHub Actions + Docker(ECR)',
+          'Sim: Deepsona(OCEAN) 페르소나 + SSR 임베딩 스코어링(arXiv 2510.08338)',
+        ],
+      },
+      {
+        title: '시스템 아키텍처',
+        items: [
+          'DDD + 헥사고날(포트·어댑터) — 핵심 3기능을 domain/ 아래 바운디드 컨텍스트로 분리',
+          '도메인 내부 레이어: contracts(포트·스키마) · adapters(구현) · service(유스케이스·SSE) · wiring(Composition Root)',
+          '비동기 잡: 인프로세스 async(asyncio) + APScheduler 워커(이상스캔·주간리포트·리밸런싱)',
+          '인증: AWS Cognito(RS256/JWKS 검증) 운영, 자체 HS256(local) 폴백 — 소프트삭제 3단계',
+          'CI/CD: ci-cd.yml 단일 파이프라인(ruff·pytest·ESLint → ECR push → EC2 배포)',
+        ],
+      },
+      {
+        title: '핵심 기능',
+        items: [
+          '① 광고 시뮬레이터 — 집행 전 반응 예측, 4대 KPI 분포·개선 보고서',
+          '② 광고 매니지먼트 — 목표·예산·플랫폼·성과 단일 창구 관리',
+          '③ 광고 생성 — 예측 반영 개선 시안 3개 자동 생성·기대 성과 순위',
+          '④ 채팅 AI 어시스턴트 — 자유질문 + 시뮬·분석·생성 결과를 딥에이전트가 위임 처리',
+        ],
+      },
+      {
+        title: '담당 (권도연)',
+        items: [
+          '시뮬레이터(4-1): SSR 임베딩 스코어링, 4대 KPI 분포화, 시뮬 도메인·엔진 구현',
+          '채팅 어시스턴트(4-4): deepagents 통합 오케스트레이터, 도메인 @tool 라우팅, OpenAI SSE',
+          '알림·센터 제안: center_suggestions 스키마, 알림 → 상담 옵션 버튼(option_select) 연동',
+          '리포트·인프라: ReportView 단일 소스 + Playwright PDF, AWS Cognito 인증, CI/CD·EC2 배포, Alembic 마이그레이션',
+        ],
+      },
+    ],
+    highlights: [
+      'Deepsona(OCEAN) + SSR 임베딩 스코어링으로 광고 반응을 분포로 예측(스칼라 단언 금지)',
+      '4대 KPI(클릭 의향률·구매의도·신뢰도·거부율)를 신뢰구간·분포로 표기, KOBACO 베이스라인 대비',
+      'DDD + 헥사고날로 시뮬·매니지먼트·생성 도메인 분리(포트·어댑터, wiring 단일 전환점)',
+      'deepagents 통합 딥에이전트가 세 도메인을 @tool로 위임, OpenAI gpt-4o-mini·SSE 스트리밍',
+      '광고 개선 시안 3개 자동 생성(Gemini·GPT Image) + 기대 성과 순위, PDF 리포트 생성',
+      'AWS Cognito(RS256/JWKS) 인증 + 소프트삭제 3단계, GitHub Actions → ECR → EC2 자동 배포',
+    ],
+    highlightsByRole: {
+      ai: [
+        'SSR(arXiv 2510.08338) 임베딩 기반 스코어링 — no LLM, 분포 출력',
+        'Deepsona(OCEAN) 페르소나로 가상 소비자 반응 시뮬레이션',
+        'deepagents 통합 오케스트레이터 — 시뮬·매니지먼트·생성 @tool 위임, SSE',
+      ],
+      fullstack: [
+        'FastAPI(DDD·헥사고날) + Next.js(TS)로 광고 전주기 플로우 end-to-end 구현',
+        '도메인 contracts/adapters/service 레이어 분리, wiring으로 mock↔실연동 전환',
+        'NeonDB(pgvector) + Alembic, ReportView 단일 소스 + Playwright PDF',
+      ],
+      devops: [
+        'ci-cd.yml 단일 파이프라인 — ruff·pytest·ESLint → ECR push → EC2 배포',
+        'Docker 이미지(backend·frontend) + Nginx + Let\'s Encrypt 자동 발급·갱신',
+        '인프로세스 async + APScheduler 워커(이상스캔·주간리포트·리밸런싱)',
+      ],
+      cloud: [
+        'AWS Cognito(User Pool, RS256/JWKS) 인증 발급·검증',
+        '단일 EC2 + Nginx 배포, AWS S3 스토리지, ECR 이미지 레지스트리',
+        'NeonDB(PostgreSQL + pgvector) 관리형 DB 연동',
+      ],
+    },
+    roles: ['ai', 'fullstack', 'devops', 'cloud'],
+  },
+  {
     id: 'eraser',
     title: 'Eraser',
     subtitle: '개인정보 비식별화 · 보안 에이전트 (팀 프로젝트)',
