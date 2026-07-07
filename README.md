@@ -23,7 +23,7 @@ npm run scss     # SCSS → src/style/css 컴파일
 
 ## 프로필 사진
 
-증명사진을 `public/images/profile.jpg`에 넣은 뒤 `AboutMe.jsx`의 placeholder를 `<img src="/images/profile.jpg" alt="권도연 프로필" />`로 교체하면 됩니다.
+증명사진을 `public/images/profile.jpg`에 넣으면 About Me에 자동으로 표시됩니다. 파일이 없으면 placeholder가 노출됩니다.
 
 ## 구조
 
