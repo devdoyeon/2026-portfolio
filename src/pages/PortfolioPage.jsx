@@ -1,5 +1,6 @@
 import { Head } from 'vite-react-ssg';
 import { roles, personalInfo } from 'data/contentData';
+import { useMotionFlag, useRevealAll } from 'hooks/useReveal';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import AboutMe from 'components/AboutMe';
@@ -10,6 +11,9 @@ import Skills from 'components/Skills';
 
 export default function PortfolioPage({ roleId }) {
   const role = roles[roleId];
+
+  useMotionFlag();
+  useRevealAll([roleId]);
 
   if (!role) return null;
 
@@ -32,11 +36,20 @@ export default function PortfolioPage({ roleId }) {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
       </Head>
-      <Header roleLabel={role.labelKo} rolePath={role.path} />
+      <Header roleLabel={role.labelKo} rolePath={role.path} roleId={roleId} />
       <main>
         <AboutMe role={role} />
-        <Career roleId={roleId} />
-        <PersonalProject roleId={roleId} />
+        {roleId === 'ai' ? (
+          <>
+            <PersonalProject roleId={roleId} />
+            <Career roleId={roleId} />
+          </>
+        ) : (
+          <>
+            <Career roleId={roleId} />
+            <PersonalProject roleId={roleId} />
+          </>
+        )}
         <Education />
         <Skills roleId={roleId} />
       </main>

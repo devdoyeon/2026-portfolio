@@ -208,6 +208,24 @@
     overflow: hidden;
   }
 
+  // 직무별 대표 성과 한 줄 — 모달을 열지 않아도 카드에서 핵심 판단이 보이도록
+  &__card-highlight {
+    font-size: 0.76rem;
+    line-height: 1.45;
+    color: var(--text-primary);
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+    border-left: 2px solid var(--accent);
+    padding: 0.32rem 0.5rem;
+    border-radius: 0 5px 5px 0;
+    height: calc(0.76rem * 1.45 * 2 + 0.64rem);
+    margin-bottom: 0.5rem;
+    flex-shrink: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
   &__tags-row {
     display: flex;
     flex-wrap: wrap;

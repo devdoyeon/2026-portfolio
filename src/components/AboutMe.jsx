@@ -94,6 +94,10 @@ export default function AboutMe({ role }) {
         </div>
 
         <div className="about__motto">
+          <p className="about__prompt">
+            <span className="about__prompt-sign">$</span> ./introduce --role {role.id}
+          </p>
+
           <blockquote className="about__quote">
             {role.quote ?? personalInfo.quote}
           </blockquote>
@@ -106,6 +110,7 @@ export default function AboutMe({ role }) {
                   {i < headlineLines.length - 1 && <br />}
                 </span>
               ))}
+              <span className="about__caret" aria-hidden="true" />
             </p>
 
             <p className="about__tagline">{role.tagline}</p>
@@ -118,14 +123,14 @@ export default function AboutMe({ role }) {
           </div>
         </div>
 
-        <div className="about__bio">
+        <div className="about__bio reveal">
           {role.bio.map((paragraph, i) => (
             <p key={i}>{paragraph}</p>
           ))}
         </div>
 
         {role.strengths?.length > 0 && (
-          <div className="about__strengths">
+          <div className="about__strengths reveal">
             <h3 className="about__section-heading">핵심 역량</h3>
             <div className="about__strengths-grid">
               {role.strengths.map((item) => (
@@ -139,7 +144,7 @@ export default function AboutMe({ role }) {
         )}
 
         {role.starCases?.length > 0 && (
-          <div className="about__cases">
+          <div className="about__cases reveal">
             <h3 className="about__section-heading">문제 해결 사례</h3>
             <div className="about__cases-list">
               {role.starCases.map((c) => (
@@ -170,7 +175,7 @@ export default function AboutMe({ role }) {
         )}
 
         {role.goals?.length > 0 && (
-          <div className="about__goals">
+          <div className="about__goals reveal">
             <h3 className="about__section-heading">입사 후 포부</h3>
             <ul>
               {role.goals.map((goal) => (

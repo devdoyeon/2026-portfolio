@@ -235,6 +235,15 @@ export const navSections = [
   { id: 'skills', label: 'Skills' },
 ];
 
+// AI 직무는 대표 프로젝트(ClickMe·Eraser)를 Career보다 먼저 노출
+export function getNavSections(roleId) {
+  if (roleId === 'ai') {
+    const by = Object.fromEntries(navSections.map((s) => [s.id, s]));
+    return [by.about, by.projects, by.career, by.education, by.skills];
+  }
+  return navSections;
+}
+
 export const career = {
   company: {
     name: 'MarkCloud',

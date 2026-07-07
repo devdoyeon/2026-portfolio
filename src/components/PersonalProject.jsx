@@ -1,6 +1,7 @@
-import { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import { getPersonalProjectsForRole, personalProjectCategoryFilters } from 'data/contentData';
 import { HashTagList } from 'components/HashTag';
+import { useModalA11y } from 'hooks/useModalA11y';
 
 const categoryModifier = {
   personal: 'personal',
@@ -8,17 +9,7 @@ const categoryModifier = {
 };
 
 function PersonalProjectModal({ project, onClose }) {
-  useEffect(() => {
-    const handleKey = (e) => {
-      if (e.key === 'Escape') onClose();
-    };
-    document.body.style.overflow = 'hidden';
-    window.addEventListener('keydown', handleKey);
-    return () => {
-      document.body.style.overflow = '';
-      window.removeEventListener('keydown', handleKey);
-    };
-  }, [onClose]);
+  const panelRef = useModalA11y(onClose);
 
   const githubLinks = Array.isArray(project.githubs) ? project.githubs : null;
 
@@ -30,7 +21,12 @@ function PersonalProjectModal({ project, onClose }) {
       aria-labelledby="personal-project-modal-title"
       onClick={onClose}
     >
-      <div className="personal-project-modal__panel" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="personal-project-modal__panel"
+        ref={panelRef}
+        tabIndex={-1}
+        onClick={(e) => e.stopPropagation()}
+      >
         <button
           type="button"
           className="personal-project-modal__close"
@@ -126,6 +122,7 @@ function PersonalProjectCard({ project, onOpen }) {
   const previewTags = project.tags.slice(0, 3);
   const extraTagCount = project.tags.length - previewTags.length;
   const cardSummary = project.cardSummary ?? project.summary;
+  const leadHighlight = project.highlights?.[0];
 
   return (
     <article className="personal-project__card">
@@ -154,6 +151,10 @@ function PersonalProjectCard({ project, onOpen }) {
           </h4>
           <p className="personal-project__card-subtitle">{project.subtitle}</p>
           <p className="personal-project__card-summary">{cardSummary}</p>
+
+          {leadHighlight && (
+            <p className="personal-project__card-highlight">{leadHighlight}</p>
+          )}
 
           <div className="personal-project__tags-row">
             <HashTagList tags={previewTags} size="sm" />
@@ -196,8 +197,8 @@ export default function PersonalProject({ roleId }) {
   return (
     <section id="projects" className="section personal-project">
       <div className="container">
-        <h2 className="section__title">Personal Project</h2>
-        <p className="personal-project__hint">카드를 클릭하면 모달에서 상세 내용을 확인할 수 있습니다.</p>
+        <h2 className="section__title reveal">Personal Project</h2>
+        <p className="personal-project__hint reveal">카드를 클릭하면 모달에서 상세 내용을 확인할 수 있습니다.</p>
 
         <div
           className="personal-project__filters"
@@ -222,7 +223,7 @@ export default function PersonalProject({ roleId }) {
         {filtered.length === 0 ? (
           <p className="personal-project__empty">해당 카테고리의 프로젝트가 없습니다.</p>
         ) : (
-          <div className="personal-project__grid">
+          <div className="personal-project__grid reveal">
             {filtered.map((project) => (
               <PersonalProjectCard key={project.id} project={project} onOpen={setModalProject} />
             ))}

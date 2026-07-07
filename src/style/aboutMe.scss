@@ -164,6 +164,29 @@
     padding-top: 0.15rem;
   }
 
+  &__prompt {
+    grid-column: 1 / -1;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.1rem;
+  }
+
+  &__prompt-sign {
+    color: var(--accent);
+    margin-right: 0.15rem;
+  }
+
+  &__caret {
+    display: inline-block;
+    width: 0.55ch;
+    height: 1.05em;
+    margin-left: 5px;
+    background: var(--accent);
+    vertical-align: text-bottom;
+    animation: caretBlink 1s steps(2, start) infinite;
+  }
+
   &__link-card {
     width: min(100%, 260px);
     display: flex;

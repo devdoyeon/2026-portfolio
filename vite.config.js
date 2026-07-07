@@ -14,6 +14,7 @@ export default defineConfig({
       components: path.resolve(srcPath, 'components'),
       pages: path.resolve(srcPath, 'pages'),
       data: path.resolve(srcPath, 'data'),
+      hooks: path.resolve(srcPath, 'hooks'),
     },
   },
 });

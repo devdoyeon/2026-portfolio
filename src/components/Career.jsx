@@ -1,6 +1,7 @@
-import { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import { getCareerForRole, careerWorkTypeFilters } from 'data/contentData';
 import { HashTagList } from 'components/HashTag';
+import { useModalA11y } from 'hooks/useModalA11y';
 
 const workTypeModifier = {
   Develop: 'develop',
@@ -10,17 +11,7 @@ const workTypeModifier = {
 };
 
 function CareerProjectModal({ project, onClose }) {
-  useEffect(() => {
-    const handleKey = (e) => {
-      if (e.key === 'Escape') onClose();
-    };
-    document.body.style.overflow = 'hidden';
-    window.addEventListener('keydown', handleKey);
-    return () => {
-      document.body.style.overflow = '';
-      window.removeEventListener('keydown', handleKey);
-    };
-  }, [onClose]);
+  const panelRef = useModalA11y(onClose);
 
   return (
     <div
@@ -30,7 +21,12 @@ function CareerProjectModal({ project, onClose }) {
       aria-labelledby="career-modal-title"
       onClick={onClose}
     >
-      <div className="career-modal__panel" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="career-modal__panel"
+        ref={panelRef}
+        tabIndex={-1}
+        onClick={(e) => e.stopPropagation()}
+      >
         <button
           type="button"
           className="career-modal__close"
@@ -172,9 +168,9 @@ export default function Career({ roleId }) {
   return (
     <section id="career" className="section career">
       <div className="container">
-        <h2 className="section__title">Career</h2>
+        <h2 className="section__title reveal">Career</h2>
 
-        <article className="career__company">
+        <article className="career__company reveal">
           <div className="career__company-header">
             <h3>
               {company.name} <span aria-hidden="true">{company.emoji}</span>
@@ -185,7 +181,7 @@ export default function Career({ roleId }) {
           <p className="career__company-desc">{company.description}</p>
         </article>
 
-        <div className="career__projects-header">
+        <div className="career__projects-header reveal">
           <h3 className="career__subtitle">주요 프로젝트</h3>
           <p className="career__hint">카드를 클릭하면 모달에서 상세 업무 내용을 확인할 수 있습니다.</p>
         </div>
@@ -209,7 +205,7 @@ export default function Career({ roleId }) {
         {filtered.length === 0 ? (
           <p className="career__empty">해당 유형의 프로젝트가 없습니다.</p>
         ) : (
-          <div className="career__grid">
+          <div className="career__grid reveal">
             {filtered.map((project) => (
               <CareerProjectCard
                 key={project.id}

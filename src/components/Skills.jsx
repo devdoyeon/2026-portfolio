@@ -7,11 +7,16 @@ export default function Skills({ roleId }) {
   return (
     <section id="skills" className="section skills">
       <div className="container">
-        <h2 className="section__title">Skills</h2>
+        <h2 className="section__title reveal">Skills</h2>
 
-        <HashTagList tags={highlight} size="lg" className="skills__highlight" />
+        <HashTagList
+          tags={highlight}
+          size="lg"
+          className="skills__highlight reveal"
+          ariaLabel="주력 기술"
+        />
 
-        <div className="skills__grid">
+        <div className="skills__grid reveal">
           {Object.entries(ordered).map(([category, items]) => (
             <div key={category} className="skills__category">
               <h3 className="skills__category-title">{category}</h3>
@@ -26,6 +31,7 @@ export default function Skills({ roleId }) {
                       key={skill}
                       label={skill}
                       size="sm"
+                      highlighted={isHighlighted}
                       className={isHighlighted ? 'hashtag--focus' : ''}
                     />
                   );
