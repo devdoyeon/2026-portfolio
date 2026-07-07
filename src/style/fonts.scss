@@ -1,4 +1,4 @@
-// 영어/숫자/기호 — Cascadia Code (한글은 뒤의 NotoSansKR로 폴백)
+// 코드/터미널용 영어 — Cascadia Code (--font-mono에서만 사용)
 @font-face {
   font-family: 'Cascadia Code';
   src: url('./fonts/CascadiaCode-400.woff2') format('woff2');
@@ -15,42 +15,11 @@
   font-display: swap;
 }
 
+// 본문·제목 (한글 + 일반 영어) — Pretendard variable
 @font-face {
-  font-family: 'NotoSansKR';
-  src: url('./fonts/NotoSansKR-Black.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NotoSansKR';
-  src: url('./fonts/NotoSansKR-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NotoSansKR';
-  src: url('./fonts/NotoSansKR-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NotoSansKR';
-  src: url('./fonts/NotoSansKR-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NotoSansKR';
-  src: url('./fonts/NotoSansKR-Thin.otf') format('opentype');
-  font-weight: 100;
+  font-family: 'Pretendard';
+  src: url('./fonts/PretendardVariable.woff2') format('woff2');
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
