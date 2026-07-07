@@ -1,14 +1,15 @@
 import { Link, useLocation } from 'react-router-dom';
-import { navSections } from 'data/contentData';
+import { getNavSections } from 'data/contentData';
 
 function scrollToSection(id) {
   const el = document.getElementById(id);
   if (el) el.scrollIntoView({ behavior: 'smooth' });
 }
 
-export default function Header({ roleLabel, rolePath }) {
+export default function Header({ roleLabel, rolePath, roleId }) {
   const location = useLocation();
   const isPortfolio = rolePath && location.pathname === rolePath;
+  const navSections = getNavSections(roleId);
 
   return (
     <header className="header">
