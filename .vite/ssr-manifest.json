@@ -1,0 +1,400 @@
+{
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/prop-types/index.js?commonjs-es-import": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/prop-types/index.js?commonjs-module": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/cjs/react-dom-client.production.js?commonjs-exports": [
+    "/assets/client-DSVM9Hni.js"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/cjs/react-dom.production.js?commonjs-exports": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/client.js?commonjs-es-import": [
+    "/assets/client-DSVM9Hni.js"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/client.js?commonjs-module": [
+    "/assets/client-DSVM9Hni.js"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/index.js?commonjs-es-import": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/index.js?commonjs-module": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/cjs/react-jsx-runtime.production.js?commonjs-exports": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/cjs/react.production.js?commonjs-exports": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/index.js?commonjs-es-import": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/index.js?commonjs-module": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/jsx-runtime.js?commonjs-es-import": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/jsx-runtime.js?commonjs-module": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/scheduler/cjs/scheduler.production.js?commonjs-exports": [
+    "/assets/client-DSVM9Hni.js"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/scheduler/index.js?commonjs-module": [
+    "/assets/client-DSVM9Hni.js"
+  ],
+  "\u0000commonjsHelpers.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000vite/modulepreload-polyfill.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "\u0000vite/preload-helper.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "index.html": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/@remix-run/router/dist/router.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/prop-types/factoryWithThrowingShims.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/prop-types/index.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/prop-types/lib/ReactPropTypesSecret.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/react-dom/cjs/react-dom-client.production.js": [
+    "/assets/client-DSVM9Hni.js"
+  ],
+  "node_modules/react-dom/cjs/react-dom.production.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/react-dom/client.js": [
+    "/assets/client-DSVM9Hni.js"
+  ],
+  "node_modules/react-dom/index.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/react-router-dom/dist/index.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/react-router/dist/index.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/react/cjs/react-jsx-runtime.production.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/react/cjs/react.production.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/react/index.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/react/jsx-runtime.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/scheduler/cjs/scheduler.production.js": [
+    "/assets/client-DSVM9Hni.js"
+  ],
+  "node_modules/scheduler/index.js": [
+    "/assets/client-DSVM9Hni.js"
+  ],
+  "node_modules/vite-react-ssg/dist/index.mjs": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/vite-react-ssg/dist/shared/vite-react-ssg.BxjO14Et.mjs": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/vite-react-ssg/dist/shared/vite-react-ssg.C0y5wbxl.mjs": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/vite-react-ssg/dist/shared/vite-react-ssg.C6pK7rvr.mjs": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/vite-react-ssg/dist/shared/vite-react-ssg.CjIppNIS.mjs": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "node_modules/vite-react-ssg/node_modules/react-helmet-async/lib/index.module.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/App.scss": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/components/AboutMe.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/components/Career.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/components/Education.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/components/Footer.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/components/HashTag.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/components/Header.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/components/PersonalProject.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/components/Skills.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/data/careerProjectDetails.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/data/contentData.js": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/main.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/pages/AiPage.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/pages/CloudPage.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/pages/DevOpsPage.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/pages/FullStackPage.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/pages/LandingPage.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/pages/PortfolioPage.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/routes.jsx": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ],
+  "src/style/fonts.scss": [
+    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  ]
+}

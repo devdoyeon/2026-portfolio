@@ -1,0 +1,49 @@
+{
+  "_client-DSVM9Hni.js": {
+    "file": "assets/client-DSVM9Hni.js",
+    "name": "client",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "assets/app-Dbtrhqwn.js",
+    "name": "app",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "_client-DSVM9Hni.js"
+    ],
+    "css": [
+      "assets/app-DrWFOP6g.css"
+    ],
+    "assets": [
+      "assets/NotoSansKR-Black-C6DFuYfj.otf",
+      "assets/NotoSansKR-Bold-w6Nhr23R.otf",
+      "assets/NotoSansKR-Medium-CGfalGZG.otf",
+      "assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+      "assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    ]
+  },
+  "src/style/fonts/NotoSansKR-Black.otf": {
+    "file": "assets/NotoSansKR-Black-C6DFuYfj.otf",
+    "src": "src/style/fonts/NotoSansKR-Black.otf"
+  },
+  "src/style/fonts/NotoSansKR-Bold.otf": {
+    "file": "assets/NotoSansKR-Bold-w6Nhr23R.otf",
+    "src": "src/style/fonts/NotoSansKR-Bold.otf"
+  },
+  "src/style/fonts/NotoSansKR-Medium.otf": {
+    "file": "assets/NotoSansKR-Medium-CGfalGZG.otf",
+    "src": "src/style/fonts/NotoSansKR-Medium.otf"
+  },
+  "src/style/fonts/NotoSansKR-Regular.otf": {
+    "file": "assets/NotoSansKR-Regular-BhHO0ZlK.otf",
+    "src": "src/style/fonts/NotoSansKR-Regular.otf"
+  },
+  "src/style/fonts/NotoSansKR-Thin.otf": {
+    "file": "assets/NotoSansKR-Thin-Bq_8Oegk.otf",
+    "src": "src/style/fonts/NotoSansKR-Thin.otf"
+  }
+}
