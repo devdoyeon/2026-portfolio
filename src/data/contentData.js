@@ -9,6 +9,7 @@ export const personalInfo = {
   birth: '2002.11.26',
   github: 'https://github.com/devdoyeon',
   blog: 'https://www.notion.so/Engineering-Blog-68cfaa38973f49fcb752259a811ef5eb',
+  siteUrl: 'https://devdoyeon.site',
   quote: '끝까지 파고들어\n완성합니다',
 };
 
@@ -16,52 +17,53 @@ export const roles = {
   ai: {
     id: 'ai',
     path: '/ai',
-    label: 'AI Developer',
-    labelKo: 'AI 개발자',
+    label: 'AI Engineer',
+    labelKo: 'AI 엔지니어',
     accentClass: 'btn-ai',
     tagline:
-      '데이터 파이프라인부터 시각화·AI 기능까지, end-to-end로 설계합니다.',
-    headline: '즐기는 AI Developer,\n권도연입니다.',
-    quote: '즐기는 만큼\n끝까지 검증한다',
+      'LLM 오케스트레이션·RAG·에이전트를 설계하고, 프론트·인프라까지 end-to-end로 구현합니다.',
+    headline: '끝까지 구현하는\nAI Engineer, 권도연입니다.',
+    quote: '오케스트레이션부터\n검증까지 파고든다',
     bio: [
-      '프론트엔드 개발 1년 2개월 동안 Mining Cloud AI 바우처 사업, 마크뷰 브랜드 네이밍(Elastic Search 기반), Annotation Tool 등 데이터·AI가 맞닿는 영역을 직접 구현했습니다. CSV/Zip 전처리, Partitioning 데이터셋, Nivo Chart 기반 상관·교차분석 시각화까지 학습용 데이터가 모델까지 이어지는 흐름을 이해하고 있습니다.',
-      '데이터 라벨러·관리자와 직접 소통하며 Annotation Tool UX를 개선한 경험은, AI 제품을 “사용하는 사람” 관점에서 설계하는 저의 강점입니다. 생성형 AI 활용 인재양성 과정(2026)을 통해 최신 AI 스택을 확장하며, 데이터 품질과 사용자 경험을 동시에 높이는 AI 개발자로 성장하고 있습니다.',
+      'LangGraph·deepagents 기반 멀티에이전트 오케스트레이션과 RAG를 설계·구현합니다. ClickMe(광고 시뮬레이션 SaaS)에서 시뮬·매니지먼트·생성 세 도메인을 @tool로 위임하는 통합 딥에이전트를 구현하고, SSR 임베딩 기반 스코어링으로 광고 반응을 스칼라가 아닌 분포로 예측하는 엔진을 만들었으며, classify-route-subagent 구조의 RAG 챗봇을 설계했습니다.',
+      'Eraser(개인정보 보안 에이전트)에서는 LLM 라우팅 오케스트레이션으로 손·얼굴·글자 탐지 모듈을 조합하고 VLM으로 탐지 신뢰도를 보강했습니다. FastAPI(DDD·헥사고날)·pgvector·AWS까지 직접 다뤄 AI를 PoC가 아니라 실서비스로 완성합니다. 프론트엔드 팀장 1년 2개월과 AWS 클라우드 경험은 AI 기능을 제품으로 끝까지 구현하는 받침입니다.',
     ],
     skillHighlight: [
-      'Python',
-      '데이터 전처리',
-      'Nivo Chart',
-      'Elastic Search',
-      'AI 파이프라인',
+      'LangGraph',
+      'RAG',
+      'deepagents',
+      'pgvector',
+      'FastAPI',
+      'OpenAI API',
     ],
     hashtags: [
-      'Python',
-      '데이터전처리',
-      'NivoChart',
-      'ElasticSearch',
-      'GPT',
-      'Annotation',
-      'MiningCloud',
-      '생성형AI',
+      'LangGraph',
+      'RAG',
+      'deepagents',
+      'LLM오케스트레이션',
+      'pgvector',
+      'FastAPI',
+      '에이전트설계',
+      '프롬프트엔지니어링',
     ],
     strengths: [
       {
         title: '지원 동기',
-        body: '프론트 개발을 하며 Mining Cloud·Annotation·브랜드 네이밍 등 데이터와 AI가 만나는 지점에서 “모델까지 이어지는 경험”의 가치를 느꼈고, 데이터에서 인사이트를 만들어내는 AI 개발자가 되고자 합니다.',
+        body: 'ClickMe·Eraser에서 LLM 오케스트레이션·RAG·에이전트를 직접 설계하며, 모델을 실제 의사결정 근거와 제품으로 완성하는 경험의 가치를 느꼈고, 이를 프로덕션 수준으로 끌어올리는 AI 엔지니어가 되고자 합니다.',
       },
       {
         title: '직무 적합성',
-        body: 'CSV/Zip 전처리·Partitioning 데이터셋·Nivo 시각화, Elastic Search 기반 브랜드 네이밍, 식별력 판단·GPT UI 등 AI/데이터 기능을 실서비스에 연동·개선한 경험이 있습니다.',
+        body: 'LangGraph·deepagents 멀티에이전트 오케스트레이션, SSR 임베딩 스코어링(분포 예측), classify-route-subagent RAG 챗봇, pgvector·OpenAI SSE 스트리밍을 FastAPI(DDD·헥사고날) 위에서 end-to-end로 구현했습니다.',
       },
       {
         title: '조직 적합성',
-        body: '데이터 라벨러·운영자와 직접 소통하며 Tool UX를 개선했고, 백엔드·기획과 협업하며 필요한 영역을 빠르게 학습해 맡아왔습니다.',
+        body: '프론트엔드 팀장으로 아키텍처·코드 리뷰·멘토링을 주도했고, 백엔드·인프라까지 스스로 맡아 AI 기능을 제품 수준으로 끝까지 책임집니다.',
       },
     ],
     goals: [
-      '3개월: 생성형 AI 과정(2026) 수료 및 프로덕트 레벨 AI 기능 구현 역량 강화',
-      '6개월: 데이터 파이프라인·모델 연동 경험을 바탕으로 팀 AI 워크플로우 개선 기여',
-      '정보처리기사 취득 및 AI·ML 스택(Python, FastAPI) 심화 학습',
+      '입사 후: LLM 오케스트레이션·RAG 파이프라인의 신뢰성·평가(eval) 체계 구축에 기여',
+      '에이전트 아키텍처·비용/지연 최적화로 프로덕션 AI 기능의 품질 향상',
+      '데이터 전처리~시각화 실무 경험을 살려 AI 제품을 “사용하는 사람” 관점까지 설계',
     ],
   },
   fullstack: {
@@ -1182,6 +1184,17 @@ export const skills = {
   IDE: ['VSCode', 'WebStorm', 'PyCharm'],
   'AI Coding Agent': ['Cursor', 'Antigravity', 'Claude'],
   '형상 관리': ['GitHub', 'GitLab'],
+  'AI / LLM': [
+    'LangGraph',
+    'deepagents',
+    'RAG',
+    'pgvector',
+    'OpenAI API',
+    'Gemini',
+    'Embeddings',
+    '프롬프트 엔지니어링',
+    'SSE 스트리밍',
+  ],
   'AI / Data': [
     'CSV·Zip 전처리',
     'Nivo Chart',
@@ -1194,13 +1207,14 @@ export const skills = {
 
 const skillOrderByRole = {
   ai: [
+    'AI / LLM',
     '프로그래밍 언어',
-    'AI Coding Agent',
-    'AI / Data',
     '백엔드',
-    '프론트엔드',
+    'AI Coding Agent',
     '데이터베이스',
     '인프라',
+    '프론트엔드',
+    'AI / Data',
     'CI/CD',
     '협업 도구',
   ],
@@ -1322,16 +1336,13 @@ export function getSkillsForRole(roleId) {
     }
   }
 
-  if (roleId === 'fullstack') {
+  // AI 전용 카테고리는 AI 직무 페이지에서만 노출
+  if (roleId === 'fullstack' || roleId === 'devops' || roleId === 'cloud') {
+    const aiOnlyCategories = ['AI / Data', 'AI / LLM'];
     return {
-      ordered: Object.fromEntries(entries.filter(([k]) => k !== 'AI / Data')),
-      highlight,
-    };
-  }
-
-  if (roleId === 'devops' || roleId === 'cloud') {
-    return {
-      ordered: Object.fromEntries(entries.filter(([k]) => k !== 'AI / Data')),
+      ordered: Object.fromEntries(
+        entries.filter(([k]) => !aiOnlyCategories.includes(k))
+      ),
       highlight,
     };
   }
@@ -1356,7 +1367,7 @@ export const personalProjectCategoryFilters = [
 export const landingRoles = [
   {
     ...roles.ai,
-    description: 'Mining Cloud·브랜드 네이밍·Annotation — 데이터→AI 워크플로',
+    description: 'LLM 오케스트레이션·RAG·에이전트 — ClickMe·Eraser 설계·구현',
   },
   {
     ...roles.fullstack,

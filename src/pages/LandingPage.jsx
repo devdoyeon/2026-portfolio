@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom';
+import { Head } from 'vite-react-ssg';
 import { personalInfo, landingRoles } from 'data/contentData';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
+
+const LANDING_TITLE = `${personalInfo.nameKo} | Software Engineer — devdoyeon.site`;
+const LANDING_DESC =
+  'AI · 풀스택 · 클라우드 · DevOps 포트폴리오. LLM 오케스트레이션·RAG·에이전트를 설계하는 AI 엔지니어 권도연입니다.';
 
 const accentMap = {
   ai: 'var(--accent-ai)',
@@ -13,6 +18,19 @@ const accentMap = {
 export default function LandingPage() {
   return (
     <div className="landing" data-role="landing">
+      <Head>
+        <title>{LANDING_TITLE}</title>
+        <meta name="description" content={LANDING_DESC} />
+        <link rel="canonical" href={personalInfo.siteUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="devdoyeon.site" />
+        <meta property="og:title" content={LANDING_TITLE} />
+        <meta property="og:description" content={LANDING_DESC} />
+        <meta property="og:url" content={personalInfo.siteUrl} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={LANDING_TITLE} />
+        <meta name="twitter:description" content={LANDING_DESC} />
+      </Head>
       <Header />
 
       <main className="landing__main">
