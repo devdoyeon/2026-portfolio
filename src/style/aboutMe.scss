@@ -48,7 +48,6 @@
     aspect-ratio: 7 / 9; // 증명사진 비율 유지 → 얼굴 좌우/상하 잘림 없음
     object-fit: cover;
     object-position: center;
-    border: 2px solid var(--text-primary);
 
     @include tablet {
       width: 180px;
