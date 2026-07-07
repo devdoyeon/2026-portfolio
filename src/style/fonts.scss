@@ -1,3 +1,20 @@
+// 영어/숫자/기호 — Cascadia Code (한글은 뒤의 NotoSansKR로 폴백)
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('./fonts/CascadiaCode-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('./fonts/CascadiaCode-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: 'NotoSansKR';
   src: url('./fonts/NotoSansKR-Black.otf') format('opentype');

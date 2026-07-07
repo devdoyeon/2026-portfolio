@@ -25,11 +25,12 @@ $breakpoint-mobile: 480px; // 모바일
 }
 
 // --- 폰트 패밀리 ---
-$blackFont: 'NotoSansKR', '맑은 고딕', sans-serif;
-$boldFont: 'NotoSansKR', '맑은 고딕', sans-serif;
-$middleFont: 'NotoSansKR', '맑은 고딕', sans-serif;
-$regularFont: 'NotoSansKR', '맑은 고딕', sans-serif;
-$thinFont: 'NotoSansKR', '맑은 고딕', sans-serif;
+// 영어/숫자/기호는 Cascadia Code, 한글은 NotoSansKR로 폴백(글리프 단위)
+$blackFont: 'Cascadia Code', 'NotoSansKR', '맑은 고딕', sans-serif;
+$boldFont: 'Cascadia Code', 'NotoSansKR', '맑은 고딕', sans-serif;
+$middleFont: 'Cascadia Code', 'NotoSansKR', '맑은 고딕', sans-serif;
+$regularFont: 'Cascadia Code', 'NotoSansKR', '맑은 고딕', sans-serif;
+$thinFont: 'Cascadia Code', 'NotoSansKR', '맑은 고딕', sans-serif;
 
 // --- 공통 레이아웃 테마 (다크 모드 기준) ---
 :root {
@@ -64,7 +65,7 @@ $thinFont: 'NotoSansKR', '맑은 고딕', sans-serif;
   --font-regular: #{$regularFont};
   --font-thin: #{$thinFont};
   --font-sans: #{$regularFont};
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-mono: 'Cascadia Code', 'NotoSansKR', monospace;
 
   @include wide-tablet {
     --section-padding: 4rem 0;
