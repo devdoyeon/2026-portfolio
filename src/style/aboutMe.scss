@@ -31,21 +31,35 @@
   }
 
   &__photo-wrap {
+    align-self: stretch; // 정보 열 높이만큼 셀을 늘리고, 그 안에서 사진을 세로 중앙 배치
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     @include tablet {
+      align-self: auto;
       justify-self: center;
+      display: block;
     }
   }
 
   &__photo {
-    width: 180px;
-    height: 220px;
+    width: 100%;
+    aspect-ratio: 7 / 9; // 증명사진 비율 유지 → 얼굴 좌우/상하 잘림 없음
     object-fit: cover;
+    object-position: center;
     border: 2px solid var(--text-primary);
+
+    @include tablet {
+      width: 180px;
+      aspect-ratio: auto;
+      height: 220px;
+    }
   }
 
   &__photo-placeholder {
-    width: 180px;
-    height: 220px;
+    width: 100%;
+    aspect-ratio: 7 / 9;
     border: 2px solid var(--text-primary);
     background: var(--card-bg);
     display: flex;
@@ -53,6 +67,12 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+
+    @include tablet {
+      width: 180px;
+      aspect-ratio: auto;
+      height: 220px;
+    }
   }
 
   &__photo-icon {
