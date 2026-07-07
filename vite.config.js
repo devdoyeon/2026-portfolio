@@ -11,7 +11,6 @@ export default defineConfig({
   assetsInclude: ['**/*.otf'],
   resolve: {
     alias: {
-      App: path.resolve(srcPath, 'App.jsx'),
       components: path.resolve(srcPath, 'components'),
       pages: path.resolve(srcPath, 'pages'),
       data: path.resolve(srcPath, 'data'),
