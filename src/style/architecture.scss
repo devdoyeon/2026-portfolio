@@ -1,0 +1,175 @@
+@use './style' as *;
+
+.architecture {
+  margin: 1.5rem 0 0.5rem;
+
+  &__title {
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  &__scroll {
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    background: var(--bg-color);
+    padding: 0.75rem;
+  }
+}
+
+.arch-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--font-mono);
+}
+
+.arch-node {
+  fill: var(--card-bg);
+  stroke: var(--border-color);
+  stroke-width: 1.2;
+
+  &--agent {
+    stroke: var(--accent);
+    stroke-width: 1.8;
+  }
+  &--tool {
+    stroke: #10b981;
+  }
+  &--graph {
+    stroke: #0ea5e9;
+  }
+  &--llm {
+    stroke: #f97316;
+  }
+  &--db {
+    stroke: #8b949e;
+  }
+}
+
+.arch-title {
+  fill: var(--text-primary);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.arch-sub {
+  fill: var(--text-secondary);
+  font-size: 11px;
+}
+
+.arch-label {
+  fill: var(--text-secondary);
+  font-size: 10px;
+}
+
+.arch-zone {
+  fill: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.85;
+}
+
+.arch-legend {
+  fill: var(--text-secondary);
+  font-size: 10px;
+}
+
+.arch-note {
+  fill: #f97316;
+  font-size: 11px;
+}
+
+.arch-arrow {
+  stroke: #9aa4b2;
+  stroke-width: 1.8;
+  fill: none;
+
+  &--dashed {
+    stroke-dasharray: 4 3;
+    opacity: 0.7;
+  }
+}
+
+.arch-arrowhead {
+  fill: #9aa4b2;
+}
+
+/* --- 서비스 파이프라인 --- */
+.pipe-box {
+  fill: var(--card-bg);
+  stroke-width: 1.5;
+}
+
+.pipe-title {
+  fill: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.pipe-num {
+  fill: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.pipe-desc {
+  fill: var(--text-secondary);
+  font-size: 11px;
+}
+
+.pipe-phase {
+  fill: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pipe-flowline {
+  stroke: #8b949e;
+  stroke-width: 1.5;
+  fill: none;
+}
+
+.pipe-loop {
+  stroke: #ef4444;
+  stroke-width: 1.5;
+  fill: none;
+  stroke-dasharray: 5 4;
+}
+
+.pipe-loop-label {
+  fill: #ef4444;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pipe-flow {
+  stroke: #10b981;
+  stroke-width: 1.5;
+  fill: none;
+}
+
+.pipe-flow-label {
+  fill: #10b981;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pipe-logo {
+  fill: var(--text-primary);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.pipe-logo-sub {
+  fill: var(--text-secondary);
+  font-size: 12px;
+}
+
+.pipe-ellipse {
+  fill: none;
+  stroke: var(--border-color);
+  stroke-dasharray: 3 3;
+}

@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback } from 'react';
 import { getPersonalProjectsForRole, personalProjectCategoryFilters } from 'data/contentData';
 import { HashTagList } from 'components/HashTag';
 import { useModalA11y } from 'hooks/useModalA11y';
+import ArchitectureDiagram from 'components/ArchitectureDiagram';
 
 const categoryModifier = {
   personal: 'personal',
@@ -62,6 +63,8 @@ function PersonalProjectModal({ project, onClose }) {
             {paragraph}
           </p>
         ))}
+
+        <ArchitectureDiagram id={project.id} />
 
         {project.sections?.map((section) => (
           <div key={section.title} className="personal-project-modal__section">
