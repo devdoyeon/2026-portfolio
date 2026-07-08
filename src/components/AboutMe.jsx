@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { personalInfo } from 'data/contentData';
 import { HashTagList } from 'components/HashTag';
+import CopyButton from 'components/CopyButton';
 
 const PROFILE_IMAGE = '/images/profile.jpg';
 
@@ -45,10 +46,15 @@ export default function AboutMe({ role }) {
             <h3 className="about__contact-title">Contact</h3>
             <ul className="about__contact-list">
               <li>
-                <strong>Email</strong> <span>{personalInfo.email}</span>
+                <strong>Email</strong>
+                <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a>
+                <CopyButton value={personalInfo.email} className="about__contact-copy">
+                  복사
+                </CopyButton>
               </li>
               <li>
-                <strong>Phone</strong> <span>{personalInfo.phone}</span>
+                <strong>Phone</strong>
+                <a href={`tel:${personalInfo.phone}`}>{personalInfo.phone}</a>
               </li>
               <li>
                 <strong>Address</strong> {personalInfo.address}
@@ -61,6 +67,19 @@ export default function AboutMe({ role }) {
 
           <div className="about__aside">
             <div className="about__links">
+              <a
+                href="/resume.pdf"
+                download
+                className="about__link-card about__link-card--primary"
+              >
+                <span className="about__link-icon" aria-hidden="true">
+                  📄
+                </span>
+                <span className="about__link-text">
+                  <strong>이력서 다운로드</strong>
+                  <span className="about__link-sub">PDF</span>
+                </span>
+              </a>
               <a
                 href={personalInfo.github}
                 target="_blank"
