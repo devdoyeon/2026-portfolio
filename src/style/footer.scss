@@ -38,7 +38,7 @@
     }
   }
 
-  &__email {
+  &__email-link {
     font-family: var(--font-mono);
     font-size: 0.82rem;
     color: var(--text-secondary);
@@ -46,5 +46,24 @@
     border: 1px solid var(--border-color);
     border-radius: 999px;
     background: color-mix(in srgb, var(--card-bg) 70%, transparent);
+    transition: color var(--transition), border-color var(--transition);
+
+    &:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+      opacity: 1;
+    }
+  }
+
+  &__copy {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }

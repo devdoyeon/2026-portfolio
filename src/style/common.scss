@@ -204,3 +204,39 @@ ul {
     display: none;
   }
 }
+
+// --- 클립보드 복사 버튼 (Footer·About 등에서 공용) ---
+.copy-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+
+  &__feedback {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 6px);
+    transform: translate(-50%, 4px);
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.7rem;
+    font-family: var(--font-mono);
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+
+    &--show {
+      opacity: 1;
+      transform: translate(-50%, 0);
+    }
+  }
+}
