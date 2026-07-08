@@ -10,6 +10,7 @@ export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.otf'],
   resolve: {
+    dedupe: ['react', 'react-dom'],
     alias: {
       components: path.resolve(srcPath, 'components'),
       pages: path.resolve(srcPath, 'pages'),
