@@ -1,400 +1,346 @@
 {
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/invariant/browser.js?commonjs-es-import": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/prop-types/index.js?commonjs-es-import": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/prop-types/index.js?commonjs-module": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
-  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/cjs/react-dom-client.production.js?commonjs-exports": [
-    "/assets/client-DSVM9Hni.js"
-  ],
-  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/cjs/react-dom.production.js?commonjs-exports": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/client.js?commonjs-es-import": [
-    "/assets/client-DSVM9Hni.js"
+    "/assets/client-DYg8CGZJ.js"
   ],
-  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/client.js?commonjs-module": [
-    "/assets/client-DSVM9Hni.js"
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/client.js?commonjs-exports": [
+    "/assets/client-DYg8CGZJ.js"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/index.js?commonjs-es-import": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/index.js?commonjs-module": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
-  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/cjs/react-jsx-runtime.production.js?commonjs-exports": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-fast-compare/index.js?commonjs-es-import": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
-  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/cjs/react.production.js?commonjs-exports": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/cjs/react.production.min.js?commonjs-exports": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/index.js?commonjs-es-import": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/index.js?commonjs-module": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/jsx-runtime.js?commonjs-es-import": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react/jsx-runtime.js?commonjs-module": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
-  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/scheduler/cjs/scheduler.production.js?commonjs-exports": [
-    "/assets/client-DSVM9Hni.js"
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/scheduler/index.js?commonjs-module": [
-    "/assets/client-DSVM9Hni.js"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/shallowequal/index.js?commonjs-es-import": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000commonjsHelpers.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000vite/modulepreload-polyfill.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000vite/preload-helper.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "index.html": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/@remix-run/router/dist/router.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "node_modules/invariant/browser.js": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/prop-types/factoryWithThrowingShims.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/prop-types/index.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/prop-types/lib/ReactPropTypesSecret.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
-  "node_modules/react-dom/cjs/react-dom-client.production.js": [
-    "/assets/client-DSVM9Hni.js"
-  ],
-  "node_modules/react-dom/cjs/react-dom.production.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  "node_modules/react-dom/cjs/react-dom.production.min.js": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/react-dom/client.js": [
-    "/assets/client-DSVM9Hni.js"
+    "/assets/client-DYg8CGZJ.js"
   ],
   "node_modules/react-dom/index.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "node_modules/react-fast-compare/index.js": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/react-router-dom/dist/index.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/react-router/dist/index.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
-  "node_modules/react/cjs/react-jsx-runtime.production.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  "node_modules/react/cjs/react-jsx-runtime.production.min.js": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
-  "node_modules/react/cjs/react.production.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+  "node_modules/react/cjs/react.production.min.js": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/react/index.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/react/jsx-runtime.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
-  "node_modules/scheduler/cjs/scheduler.production.js": [
-    "/assets/client-DSVM9Hni.js"
+  "node_modules/scheduler/cjs/scheduler.production.min.js": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/scheduler/index.js": [
-    "/assets/client-DSVM9Hni.js"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "node_modules/shallowequal/index.js": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/vite-react-ssg/dist/index.mjs": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/vite-react-ssg/dist/shared/vite-react-ssg.BxjO14Et.mjs": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/vite-react-ssg/dist/shared/vite-react-ssg.C0y5wbxl.mjs": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/vite-react-ssg/dist/shared/vite-react-ssg.C6pK7rvr.mjs": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/vite-react-ssg/dist/shared/vite-react-ssg.CjIppNIS.mjs": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/vite-react-ssg/node_modules/react-helmet-async/lib/index.module.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/App.scss": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/components/AboutMe.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "src/components/ArchitectureDiagram.jsx": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/components/Career.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/components/Education.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/components/Footer.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/components/HashTag.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/components/Header.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/components/PersonalProject.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/components/Skills.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "src/components/Typewriter.jsx": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/data/careerProjectDetails.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/data/contentData.js": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "src/hooks/useModalA11y.js": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "src/hooks/useReveal.js": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/main.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/pages/AiPage.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/pages/CloudPage.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/pages/DevOpsPage.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/pages/FullStackPage.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/pages/LandingPage.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/pages/PortfolioPage.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/routes.jsx": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/style/fonts.scss": [
-    "/assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "/assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "/assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "/assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "/assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
   ]
 }

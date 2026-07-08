@@ -1,6 +1,6 @@
 {
-  "_client-DSVM9Hni.js": {
-    "file": "assets/client-DSVM9Hni.js",
+  "_client-DYg8CGZJ.js": {
+    "file": "assets/client-DYg8CGZJ.js",
     "name": "client",
     "isDynamicEntry": true,
     "imports": [
@@ -8,42 +8,32 @@
     ]
   },
   "index.html": {
-    "file": "assets/app-Dbtrhqwn.js",
+    "file": "assets/app-WNx264wa.js",
     "name": "app",
     "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
-      "_client-DSVM9Hni.js"
+      "_client-DYg8CGZJ.js"
     ],
     "css": [
-      "assets/app-DrWFOP6g.css"
+      "assets/app-DQaFYhwN.css"
     ],
     "assets": [
-      "assets/NotoSansKR-Black-C6DFuYfj.otf",
-      "assets/NotoSansKR-Bold-w6Nhr23R.otf",
-      "assets/NotoSansKR-Medium-CGfalGZG.otf",
-      "assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-      "assets/NotoSansKR-Thin-Bq_8Oegk.otf"
+      "assets/CascadiaCode-400-hfeVgAEz.woff2",
+      "assets/CascadiaCode-700-D3cIOP92.woff2",
+      "assets/PretendardVariable-CJuje-Rk.woff2"
     ]
   },
-  "src/style/fonts/NotoSansKR-Black.otf": {
-    "file": "assets/NotoSansKR-Black-C6DFuYfj.otf",
-    "src": "src/style/fonts/NotoSansKR-Black.otf"
+  "src/style/fonts/CascadiaCode-400.woff2": {
+    "file": "assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "src": "src/style/fonts/CascadiaCode-400.woff2"
   },
-  "src/style/fonts/NotoSansKR-Bold.otf": {
-    "file": "assets/NotoSansKR-Bold-w6Nhr23R.otf",
-    "src": "src/style/fonts/NotoSansKR-Bold.otf"
+  "src/style/fonts/CascadiaCode-700.woff2": {
+    "file": "assets/CascadiaCode-700-D3cIOP92.woff2",
+    "src": "src/style/fonts/CascadiaCode-700.woff2"
   },
-  "src/style/fonts/NotoSansKR-Medium.otf": {
-    "file": "assets/NotoSansKR-Medium-CGfalGZG.otf",
-    "src": "src/style/fonts/NotoSansKR-Medium.otf"
-  },
-  "src/style/fonts/NotoSansKR-Regular.otf": {
-    "file": "assets/NotoSansKR-Regular-BhHO0ZlK.otf",
-    "src": "src/style/fonts/NotoSansKR-Regular.otf"
-  },
-  "src/style/fonts/NotoSansKR-Thin.otf": {
-    "file": "assets/NotoSansKR-Thin-Bq_8Oegk.otf",
-    "src": "src/style/fonts/NotoSansKR-Thin.otf"
+  "src/style/fonts/PretendardVariable.woff2": {
+    "file": "assets/PretendardVariable-CJuje-Rk.woff2",
+    "src": "src/style/fonts/PretendardVariable.woff2"
   }
 }
