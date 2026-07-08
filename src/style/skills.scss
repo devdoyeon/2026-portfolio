@@ -1,6 +1,17 @@
 @use './style' as *;
 
 .skills {
+  // Skills 섹션은 전부 코드 폰트(Cascadia). 한글은 Cascadia에 글리프가 없어 Pretendard로 폴백.
+  font-family: var(--font-mono);
+
+  .section__title {
+    font-family: var(--font-mono);
+  }
+
+  .hashtag {
+    font-family: var(--font-mono);
+  }
+
   &__highlight {
     margin-bottom: 2rem;
 
@@ -41,7 +52,7 @@
   }
 
   &__category-title {
-    font-family: var(--font-bold);
+    font-family: var(--font-mono);
     font-size: 0.9rem;
     color: var(--accent);
     margin-bottom: 0.75rem;

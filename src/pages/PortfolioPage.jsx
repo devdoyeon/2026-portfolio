@@ -36,7 +36,7 @@ export default function PortfolioPage({ roleId }) {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
       </Head>
-      <Header roleLabel={role.labelKo} rolePath={role.path} roleId={roleId} />
+      <Header roleLabel={role.label} rolePath={role.path} roleId={roleId} />
       <main>
         <AboutMe role={role} />
         {roleId === 'ai' ? (

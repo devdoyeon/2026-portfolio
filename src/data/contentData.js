@@ -1157,8 +1157,6 @@ export const personalProjects = [
 ];
 
 export const education = [
-  { date: '2019.10.21', text: '서울특별시 용산구 소재 신광여자고등학교 중퇴' },
-  { date: '2021.08.30', text: '고등학교 졸업 검정고시 합격' },
   {
     date: '2022.03.30 ~ 2022.06.19',
     text: '[K-Digital Training] 웹 서비스 기반 빅데이터 분석 및 개발자 양성 — 에이콘 아카데미 (조기 취업)',
