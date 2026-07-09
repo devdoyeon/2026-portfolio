@@ -19,6 +19,7 @@ export const roles = {
     path: '/ai',
     label: 'AI Engineer',
     labelKo: 'AI 엔지니어',
+    branch: 'feat/ai-engineer',
     accentClass: 'btn-ai',
     tagline:
       'LLM 오케스트레이션·RAG·에이전트를 설계하고, 프론트·인프라까지 end-to-end로 구현합니다.',
@@ -71,6 +72,7 @@ export const roles = {
     path: '/full-stack',
     label: 'Full-Stack Developer',
     labelKo: '풀스택 개발자',
+    branch: 'feat/full-stack',
     accentClass: 'btn-fullstack',
     tagline:
       'React·Next.js로 서비스를 만들고, 백엔드·API까지 주도적으로 연결합니다.',
@@ -123,6 +125,7 @@ export const roles = {
     path: '/devops',
     label: 'DevOps Engineer',
     labelKo: 'DevOps 엔지니어',
+    branch: 'feat/devops',
     accentClass: 'btn-devops',
     tagline:
       '개발자의 입장을 아는 DevOps — 자동화·최적화로 배포와 운영의 간극을 줄입니다.',
@@ -186,6 +189,7 @@ export const roles = {
     path: '/cloud',
     label: 'Cloud Engineer',
     labelKo: '클라우드 엔지니어',
+    branch: 'feat/cloud',
     accentClass: 'btn-cloud',
     tagline: 'AWS 기반으로 안정적·확장 가능한 인프라를 설계하고 운영합니다.',
     headline: '즐기는 Cloud Engineer,\n권도연입니다.',
@@ -227,13 +231,25 @@ export const roles = {
   },
 };
 
+// 각 섹션을 "파일"에 매핑 — 헤더 탭바·사이드바·breadcrumb·상태바가 공유하는 단일 소스
 export const navSections = [
-  { id: 'about', label: 'About Me' },
-  { id: 'career', label: 'Career' },
-  { id: 'projects', label: 'Personal Project' },
-  { id: 'education', label: 'Education' },
-  { id: 'skills', label: 'Skills' },
+  { id: 'about', label: 'About Me', file: 'about.tsx', ext: 'tsx', lang: 'TypeScript JSX' },
+  { id: 'career', label: 'Career', file: 'career.json', ext: 'json', lang: 'JSON' },
+  { id: 'projects', label: 'Personal Project', file: 'projects.md', ext: 'md', lang: 'Markdown' },
+  { id: 'education', label: 'Education', file: 'education.md', ext: 'md', lang: 'Markdown' },
+  { id: 'skills', label: 'Skills', file: 'skills.yaml', ext: 'yaml', lang: 'YAML' },
 ];
+
+// 확장자별 아이콘 색 (VS Code seti 계열 근사)
+export const extColors = {
+  tsx: '#3178c6',
+  ts: '#3178c6',
+  jsx: '#61dafb',
+  json: '#cbcb41',
+  md: '#6a9fb5',
+  yaml: '#c9629e',
+  yml: '#c9629e',
+};
 
 // AI 직무는 대표 프로젝트(ClickMe·Eraser)를 Career보다 먼저 노출
 export function getNavSections(roleId) {
@@ -673,7 +689,7 @@ export const personalProjects = [
     ],
     docs: 'https://doyeonyou.notion.site/Eraser-3725796685d480e59d4ec127e506cc65?source=copy_link',
     summary:
-      'SNS 이미지 공유로 인한 지문·홍채·개인정보(텍스트) 탈취 우려를 줄이기 위해, 이미지 업로드 시 LLM 오케스트레이션이 위험요소(손·얼굴·글자)를 판단하고 모듈을 조합해 비가역 보호 처리 + 리포트를 제공하는 보안 에이전트 서비스',
+      'SNS 이미지 공유로 인한 지문·홍채·개인정보(텍스트) 탈취 우려를 줄이기 위해, 이미지 업로드 시 Gemini Function Calling이 위험요소(손·얼굴·글자)를 판단해 필요한 모듈만 순차 실행하고, 비가역 보호 처리 + 보안 리포트를 제공하는 에이전트 서비스',
     tags: [
       'Python 3.11',
       'FastAPI',
@@ -684,12 +700,12 @@ export const personalProjects = [
       'OpenCV',
       'EasyOCR',
       'Gemini',
-      'VLM',
+      'Stability AI',
     ],
     color: '#7c3aed',
     detailOverview: [
       'AI 기술 고도화로 사진만으로 지문·홍채 등 변경 불가능한 생체 데이터가 탈취될 수 있다는 문제의식에서 출발한 프로젝트입니다.',
-      'Eraser는 이미지 업로드 시 위험요소(손/얼굴/글자)를 점검하고, 필요한 모듈을 조합해 비식별화(비가역) 처리와 함께 보안 리포트를 제공하는 개인정보 보안 에이전트입니다.',
+      'Eraser는 이미지 업로드 시 Gemini Function Calling으로 위험요소(손/얼굴/글자)를 판단하고, 필요한 모듈만 순차 실행해 비식별화(비가역) 처리와 함께 보안 리포트를 제공하는 개인정보 보안 에이전트입니다.',
     ],
     sections: [
       {
@@ -712,14 +728,14 @@ export const personalProjects = [
       {
         title: '시스템 아키텍처',
         items: [
-          '미니 프로젝트 특성에 맞춰 모듈형 모놀리식 구조로 구성',
-          'LLM 라우팅 오케스트레이션으로 손/얼굴/글자 탐지를 분기하고 모듈을 선택·조합',
+          '미니 프로젝트 특성에 맞춰 모듈형 모놀리식 구조로 구성 (schema.py의 ModuleResult·BoundingBox로 지문/홍채/텍스트 3개 모듈을 통일된 계약으로 조립)',
+          'Gemini Function Calling으로 위험요소(손/얼굴/글자)를 판단해 필요한 모듈만 켜고, 켜진 모듈을 이미지 체이닝으로 순차 실행',
         ],
       },
       {
         title: '핵심 기능',
         items: [
-          '이미지 업로드 → LLM 오케스트레이션이 위험요소 점검 후 모듈 실행',
+          '이미지 업로드 → Gemini 라우팅이 위험요소 판단 후 필요한 모듈만 순차 실행',
           '지문/홍채/텍스트 3개 모듈로 구성된 보호 처리',
           '보호 처리 이미지 + 탐지 결과 + 에이전트 보안 리포트 제공',
         ],
@@ -733,19 +749,19 @@ export const personalProjects = [
       },
     ],
     highlights: [
-      'LLM 라우팅 오케스트레이션: 손·얼굴·글자 탐지 분기 → 필요한 모듈을 조합 실행',
-      '지문 탐지: MediaPipe 손끝 → 공간 계산으로 지문 영역 2차 산출 → 모호 시 VLM(Gemini)로 재확인 → OpenCV 인페인팅 마스킹',
+      'Gemini Function Calling 라우팅: 위험요소(손·얼굴·글자) 판단 → 켜진 모듈만 이미지 체이닝으로 순차 실행',
+      '지문 탐지: MediaPipe 손끝 검출 → 기하 필터(손바닥 법선)로 노출면 판정 → 애매한 경우만 VLM(Gemini) 재확인 → Stability AI Inpainting API로 마스킹',
       '홍채 탐지: MediaPipe FaceLandmarker로 얼굴/눈 추출, EAR로 눈감김 + yaw 보정 후 열린 눈만 홍채 영역 추출',
-      '홍채 비식별화: 평균색 기반 + 주파수 영역 블렌딩(중간 주파수 패턴)으로 자연스러운 보정',
-      '복원 방지: 프렉탈 노이즈 + PGD 스타일 미세 픽셀 교란으로 역연산 난이도 상승',
-      '글자 탐지: EasyOCR로 텍스트/좌표 추출 → VLM(Gemini)로 좌표 보정 및 개인정보 여부 판별',
-      '텍스트 비가역 처리: 원본 픽셀 제거 + bbox 주변색 단색 덮기',
-      '처리 결과: 보호 처리 이미지 + 탐지 결과 + LLM 분석 리포트로 사용자 보안 인식 제고',
+      '홍채 비식별화: 주파수 도메인 블렌딩(원본 magnitude + 합성 phase) + Voronoi 텍스처 합성 홍채로 자연스러운 대체',
+      '복원 방지: 프랙탈 노이즈 + PGD 스타일 미세 픽셀 교란, IrisCode 해밍거리로 비식별화 정도 검증',
+      '글자 탐지: EasyOCR로 텍스트/좌표 추출 → 라인 그룹핑 → Gemini로 PII 판별 및 bbox 보정',
+      '텍스트 비가역 처리: 주민번호·이름은 원본 픽셀 제거 후 단색 덮기, 그 외는 모자이크',
+      '처리 결과: 보호 처리 이미지 + 탐지 결과 + Gemini 생성 보안 리포트로 사용자 보안 인식 제고',
     ],
     highlightsByRole: {
       ai: [
-        'LLM 라우팅 오케스트레이션으로 모듈(지문/홍채/텍스트) 선택·조합',
-        'VLM(Gemini) 재확인/좌표 보정/개인정보 판별로 탐지 신뢰도 강화',
+        'Gemini Function Calling 라우팅으로 모듈(지문/홍채/텍스트) 선택 → 순차 체이닝 실행',
+        'VLM(Gemini) 재확인/PII 판별/bbox 보정으로 탐지 신뢰도 강화',
         '에이전트 보안 리포트: 탐지 결과를 바탕으로 위험 요소를 요약·설명하는 리포트 생성 플로우 구성',
       ],
       fullstack: [

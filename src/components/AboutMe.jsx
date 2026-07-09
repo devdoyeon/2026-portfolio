@@ -2,8 +2,39 @@ import { useState, useEffect } from 'react';
 import { personalInfo } from 'data/contentData';
 import { HashTagList } from 'components/HashTag';
 import CopyButton from 'components/CopyButton';
+import FileIcon from 'components/FileIcon';
 
 const PROFILE_IMAGE = '/images/profile.jpg';
+
+// 코드 카드의 `key: "value",` 한 줄 — 값은 실제 클릭 가능한 링크로도 렌더(정보 접근성 유지)
+function CodeRow({ k, value, href, external, comment, last, copyValue }) {
+  const quoted = <>&quot;{value}&quot;</>;
+  return (
+    <li className="codecard__line codecard__line--prop">
+      <span className="codecard__key">{k}</span>
+      <span className="c-punc">: </span>
+      {href ? (
+        <a
+          className="c-str c-link"
+          href={href}
+          target={external ? '_blank' : undefined}
+          rel={external ? 'noreferrer' : undefined}
+        >
+          {quoted}
+        </a>
+      ) : (
+        <span className="c-str">{quoted}</span>
+      )}
+      {!last && <span className="c-punc">,</span>}
+      {comment && <span className="c-com">{'  // '}{comment}</span>}
+      {copyValue && (
+        <CopyButton value={copyValue} className="codecard__copy">
+          복사
+        </CopyButton>
+      )}
+    </li>
+  );
+}
 
 export default function AboutMe({ role }) {
   const [hasProfilePhoto, setHasProfilePhoto] = useState(false);
@@ -39,74 +70,63 @@ export default function AboutMe({ role }) {
             )}
           </div>
 
-          <div className="about__info">
-            <h1 className="about__name-ko">{personalInfo.nameKo}</h1>
-            <p className="about__name-en">{personalInfo.nameEn}</p>
+          <div>
+            <div className="codecard" aria-label={`${personalInfo.nameKo} 기본 정보`}>
+              <div className="codecard__tab">
+                <FileIcon ext="tsx" />
+                <span className="codecard__tab-name">about.tsx</span>
+                <span className="codecard__tab-dot" aria-hidden="true" />
+              </div>
+              <div className="codecard__body">
+                <ol className="codecard__code">
+                  <li className="codecard__line">
+                    <span className="c-key">const</span>{' '}
+                    <span className="c-var">doyeon</span>{' '}
+                    <span className="c-punc">=</span>{' '}
+                    <span className="c-punc">{'{'}</span>
+                  </li>
+                  <CodeRow k="name" value={personalInfo.nameKo} comment={personalInfo.nameEn} />
+                  <CodeRow k="role" value={role.label} />
+                  <CodeRow
+                    k="email"
+                    value={personalInfo.email}
+                    href={`mailto:${personalInfo.email}`}
+                    copyValue={personalInfo.email}
+                  />
+                  <CodeRow
+                    k="phone"
+                    value={personalInfo.phone}
+                    href={`tel:${personalInfo.phone}`}
+                  />
+                  <CodeRow k="based" value={personalInfo.address} />
+                  <CodeRow k="birth" value={personalInfo.birth} last />
+                  <li className="codecard__line">
+                    <span className="c-punc">{'}'}</span>
+                    <span className="c-punc">;</span>
+                  </li>
+                </ol>
+              </div>
+            </div>
 
-            <h3 className="about__contact-title">Contact</h3>
-            <ul className="about__contact-list">
-              <li>
-                <strong>Email</strong>
-                <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a>
-                <CopyButton value={personalInfo.email} className="about__contact-copy">
-                  복사
-                </CopyButton>
-              </li>
-              <li>
-                <strong>Phone</strong>
-                <a href={`tel:${personalInfo.phone}`}>{personalInfo.phone}</a>
-              </li>
-              <li>
-                <strong>Address</strong> {personalInfo.address}
-              </li>
-              <li>
-                <strong>Birth</strong> {personalInfo.birth}
-              </li>
-            </ul>
-          </div>
-
-          <div className="about__aside">
-            <div className="about__links">
-              <a
-                href="/resume.pdf"
-                download
-                className="about__link-card about__link-card--primary"
-              >
-                <span className="about__link-icon" aria-hidden="true">
-                  📄
-                </span>
-                <span className="about__link-text">
-                  <strong>이력서 다운로드</strong>
-                  <span className="about__link-sub">PDF</span>
-                </span>
+            <div className="about__quick-actions">
+              <a href="/resume.pdf" download className="about__action about__action--primary">
+                <span aria-hidden="true">▶</span> 이력서 다운로드
               </a>
               <a
                 href={personalInfo.github}
                 target="_blank"
                 rel="noreferrer"
-                className="about__link-card"
+                className="about__action"
               >
-                <span className="about__link-icon" aria-hidden="true">
-                  👩🏻‍💻
-                </span>
-                <span className="about__link-text">
-                  <strong>GitHub</strong>
-                  <span className="about__link-sub">{personalInfo.github.replace('https://', '')}</span>
-                </span>
+                GitHub
               </a>
               <a
                 href={personalInfo.blog}
                 target="_blank"
                 rel="noreferrer"
-                className="about__link-card"
+                className="about__action"
               >
-                <span className="about__link-icon" aria-hidden="true">
-                  📝
-                </span>
-                <span className="about__link-text">
-                  <strong>Engineering Blog</strong>
-                  <span className="about__link-sub">Notion</span>
-                </span>
+                Blog ↗
               </a>
             </div>
           </div>

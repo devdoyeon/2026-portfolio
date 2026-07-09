@@ -24,6 +24,13 @@ $breakpoint-mobile: 480px; // 모바일
   }
 }
 
+//& 데스크톱 (파일 탐색기 사이드바 노출 기준)
+@mixin desktop {
+  @media screen and (min-width: #{$breakpoint-wide-tablet + 1}) {
+    @content;
+  }
+}
+
 // --- 폰트 패밀리 ---
 // 본문·제목(한글 + 일반 영어)은 Pretendard. 코드/터미널 영어만 --font-mono(Cascadia)로.
 $blackFont: 'Pretendard', '맑은 고딕', sans-serif;
@@ -53,6 +60,19 @@ $thinFont: 'Pretendard', '맑은 고딕', sans-serif;
   --radius: 8px;
   --radius-lg: 12px;
   --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+
+  // 에디터 크롬 치수
+  --sidebar-w: 240px;
+  --statusbar-h: 26px;
+  --breadcrumb-h: 30px;
+
+  // 신택스 하이라이트 토큰 색 (GitHub Dark 근사)
+  --code-keyword: #ff7b72;
+  --code-var: #ffa657;
+  --code-prop: #79c0ff;
+  --code-string: #a5d6ff;
+  --code-comment: #8b949e;
+  --code-punc: #c9d1d9;
 
   --scrollbar-size: 8px;
   --scrollbar-track: var(--bg-color);
