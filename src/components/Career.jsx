@@ -1,6 +1,7 @@
 import { useState, useMemo, useCallback } from 'react';
 import { getCareerForRole, careerWorkTypeFilters } from 'data/contentData';
 import { HashTagList } from 'components/HashTag';
+import StatChips from 'components/StatChips';
 import { useModalA11y } from 'hooks/useModalA11y';
 
 const workTypeModifier = {
@@ -179,6 +180,13 @@ export default function Career({ roleId }) {
             <span className="career__period">{company.period}</span>
           </div>
           <p className="career__company-desc">{company.description}</p>
+          <StatChips
+            className="career__stats"
+            stats={[
+              { value: `${projects.length}개`, label: '참여 프로젝트' },
+              { value: '1년 2개월', label: '팀장 재직' },
+            ]}
+          />
         </article>
 
         <div className="career__projects-header reveal">

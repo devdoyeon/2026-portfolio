@@ -205,6 +205,45 @@ ul {
   }
 }
 
+// --- 정량 성과 칩 (숫자 + 라벨, 카드/헤더 공용) ---
+.stat-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  &__value {
+    font-family: var(--font-mono);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1.1;
+
+    @include mobile {
+      font-size: 1.1rem;
+    }
+  }
+
+  &__label {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  &--sm &__value {
+    font-size: 0.95rem;
+  }
+
+  &--sm &__label {
+    font-size: 0.65rem;
+  }
+}
+
 // --- 클립보드 복사 버튼 (Footer·About 등에서 공용) ---
 .copy-btn {
   position: relative;

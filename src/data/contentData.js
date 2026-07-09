@@ -576,6 +576,11 @@ export const personalProjects = [
       '집행 전 AI 가상소비자로 광고 반응 예측 → 집행 후 성과 추적까지',
     summary:
       '집행 전 AI 가상 소비자(Deepsona OCEAN + SSR)에게 광고를 테스트해 클릭 의향·구매의도·신뢰도·거부율을 분포로 예측하고, 집행 후 성과를 추적·관리하는 광고 전주기 지원 플랫폼. 목표는 "실제 사람과 동일한 응답"이 아니라 "직감·내부 검토보다 나은 의사결정 근거" 제공. FastAPI(DDD·헥사고날) + Next.js, LLM 오케스트레이션 챗 어시스턴트, AWS Cognito·EC2·CI/CD까지 end-to-end로 구축했습니다.',
+    stats: [
+      { value: '4개', label: 'KPI 분포 예측' },
+      { value: '2,000회', label: '부트스트랩 CI' },
+      { value: '3개', label: '도메인 딥에이전트' },
+    ],
     tags: [
       'Python',
       'FastAPI',
@@ -682,6 +687,10 @@ export const personalProjects = [
     period: 'Team Project',
     category: 'academy',
     cardSummary: '손/얼굴/글자 탐지 → 비가역 비식별화 + 보안 리포트',
+    stats: [
+      { value: '3개', label: '비식별화 모듈' },
+      { value: '2단계', label: '탐지 → VLM 재확인' },
+    ],
     docs: 'https://doyeonyou.notion.site/Eraser-3725796685d480e59d4ec127e506cc65?source=copy_link',
     githubs: [
       { label: 'GitHub (BE)', url: 'https://github.com/Ifiveteam/eraser-be' },

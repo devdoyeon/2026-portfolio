@@ -226,6 +226,12 @@
     overflow: hidden;
   }
 
+  &__stats-slot {
+    min-height: 2.2rem;
+    margin-bottom: 0.4rem;
+    flex-shrink: 0;
+  }
+
   &__tags-row {
     display: flex;
     flex-wrap: wrap;
@@ -386,6 +392,10 @@
       margin-bottom: 1.25rem;
     }
   }
+}
+
+.personal-project-modal__stats {
+  margin: 0.85rem 0 0.5rem;
 }
 
 .personal-project-modal__section {

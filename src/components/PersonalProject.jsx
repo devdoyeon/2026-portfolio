@@ -3,6 +3,7 @@ import { getPersonalProjectsForRole, personalProjectCategoryFilters } from 'data
 import { HashTagList } from 'components/HashTag';
 import { useModalA11y } from 'hooks/useModalA11y';
 import ArchitectureDiagram from 'components/ArchitectureDiagram';
+import StatChips from 'components/StatChips';
 
 const categoryModifier = {
   personal: 'personal',
@@ -57,6 +58,8 @@ function PersonalProjectModal({ project, onClose }) {
         <p className="personal-project-modal__summary">{project.summary}</p>
 
         <HashTagList tags={project.tags} size="sm" className="personal-project-modal__tags" />
+
+        <StatChips stats={project.stats} className="personal-project-modal__stats" />
 
         {project.detailOverview?.map((paragraph, i) => (
           <p key={i} className="personal-project-modal__overview">
@@ -158,6 +161,10 @@ function PersonalProjectCard({ project, onOpen }) {
           {leadHighlight && (
             <p className="personal-project__card-highlight">{leadHighlight}</p>
           )}
+
+          <div className="personal-project__stats-slot">
+            <StatChips stats={project.stats} className="stat-chips--sm" />
+          </div>
 
           <div className="personal-project__tags-row">
             <HashTagList tags={previewTags} size="sm" />
