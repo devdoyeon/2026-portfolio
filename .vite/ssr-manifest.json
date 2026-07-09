@@ -20,10 +20,10 @@
     "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/client.js?commonjs-es-import": [
-    "/assets/client-DYg8CGZJ.js"
+    "/assets/client-D8mVeWg4.js"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/client.js?commonjs-exports": [
-    "/assets/client-DYg8CGZJ.js"
+    "/assets/client-D8mVeWg4.js"
   ],
   "\u0000C:/doyeon/workspace/2026-portfolio/node_modules/react-dom/index.js?commonjs-es-import": [
     "/assets/CascadiaCode-400-hfeVgAEz.woff2",
@@ -136,7 +136,7 @@
     "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "node_modules/react-dom/client.js": [
-    "/assets/client-DYg8CGZJ.js"
+    "/assets/client-D8mVeWg4.js"
   ],
   "node_modules/react-dom/index.js": [
     "/assets/CascadiaCode-400-hfeVgAEz.woff2",
@@ -243,7 +243,32 @@
     "/assets/CascadiaCode-700-D3cIOP92.woff2",
     "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
+  "src/components/CopyButton.jsx": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "src/components/EditorBreadcrumb.jsx": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "src/components/EditorSidebar.jsx": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "src/components/EditorStatusBar.jsx": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
   "src/components/Education.jsx": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "src/components/FileIcon.jsx": [
     "/assets/CascadiaCode-400-hfeVgAEz.woff2",
     "/assets/CascadiaCode-700-D3cIOP92.woff2",
     "/assets/PretendardVariable-CJuje-Rk.woff2"
@@ -273,6 +298,11 @@
     "/assets/CascadiaCode-700-D3cIOP92.woff2",
     "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
+  "src/components/StatChips.jsx": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
   "src/components/Typewriter.jsx": [
     "/assets/CascadiaCode-400-hfeVgAEz.woff2",
     "/assets/CascadiaCode-700-D3cIOP92.woff2",
@@ -294,6 +324,11 @@
     "/assets/PretendardVariable-CJuje-Rk.woff2"
   ],
   "src/hooks/useReveal.js": [
+    "/assets/CascadiaCode-400-hfeVgAEz.woff2",
+    "/assets/CascadiaCode-700-D3cIOP92.woff2",
+    "/assets/PretendardVariable-CJuje-Rk.woff2"
+  ],
+  "src/hooks/useScrollSpy.js": [
     "/assets/CascadiaCode-400-hfeVgAEz.woff2",
     "/assets/CascadiaCode-700-D3cIOP92.woff2",
     "/assets/PretendardVariable-CJuje-Rk.woff2"

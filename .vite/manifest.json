@@ -1,6 +1,6 @@
 {
-  "_client-DYg8CGZJ.js": {
-    "file": "assets/client-DYg8CGZJ.js",
+  "_client-D8mVeWg4.js": {
+    "file": "assets/client-D8mVeWg4.js",
     "name": "client",
     "isDynamicEntry": true,
     "imports": [
@@ -8,15 +8,15 @@
     ]
   },
   "index.html": {
-    "file": "assets/app-WNx264wa.js",
+    "file": "assets/app-jeyFgDcp.js",
     "name": "app",
     "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
-      "_client-DYg8CGZJ.js"
+      "_client-D8mVeWg4.js"
     ],
     "css": [
-      "assets/app-DQaFYhwN.css"
+      "assets/app-C0C3D5f4.css"
     ],
     "assets": [
       "assets/CascadiaCode-400-hfeVgAEz.woff2",
