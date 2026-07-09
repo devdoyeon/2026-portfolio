@@ -45,9 +45,13 @@ export default function LandingPage() {
         <meta property="og:title" content={LANDING_TITLE} />
         <meta property="og:description" content={LANDING_DESC} />
         <meta property="og:url" content={personalInfo.siteUrl} />
-        <meta name="twitter:card" content="summary" />
+        <meta property="og:image" content={`${personalInfo.siteUrl}/og/og-default.png`} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={LANDING_TITLE} />
         <meta name="twitter:description" content={LANDING_DESC} />
+        <meta name="twitter:image" content={`${personalInfo.siteUrl}/og/og-default.png`} />
       </Head>
       <Header />
 
